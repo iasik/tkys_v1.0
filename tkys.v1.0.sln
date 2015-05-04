@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TKYS_v1.0", "http://localhost:56249", "{15551530-3503-486C-9FC5-EBE8A3F33CCB}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "tkys.v1.0", "http://localhost:1308", "{08BC8C40-9006-467C-919E-2DE59FA8662E}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_56249"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\TKYS_v1.0\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56249\"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1308"
+		Debug.AspNetCompiler.PhysicalPath = "tkys.v1.0\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1308\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_56249"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\TKYS_v1.0\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56249\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1308"
+		Release.AspNetCompiler.PhysicalPath = "tkys.v1.0\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1308\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\WebSites\TKYS_v1.0\"
+		SlnRelativePath = "tkys.v1.0\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -30,8 +30,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{15551530-3503-486C-9FC5-EBE8A3F33CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15551530-3503-486C-9FC5-EBE8A3F33CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BC8C40-9006-467C-919E-2DE59FA8662E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BC8C40-9006-467C-919E-2DE59FA8662E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
