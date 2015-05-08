@@ -156,5 +156,5 @@ $RECYCLE.BIN/
 .DS_Store
 
 
-Web.config
-Web.Debug.config
+TKYS_v1.1/Web.config
+TKYS_v1.1/Web.Debug.config
