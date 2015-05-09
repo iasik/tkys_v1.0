@@ -8,10 +8,13 @@ using System.Web;
 /// </summary>
 public class kullanici_bilgisi
 {
+    public bool cinsiyet { get; set; }
     public string kullanici_adi { get; set; }
     public string ad { get; set; }
     public string soyad { get; set; }
+    public string sifre { get; set; }
     public int id { get; set; }
-    public string yetki { get; set; }
+    public UyeTip yetki { get; set; }
     public string e_posta { get; set; }
+    public string cep_telefonu { get; set; }
 }
