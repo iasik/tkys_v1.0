@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/backend/backend.master" AutoEventWireup="true" CodeFile="listele.aspx.cs" Inherits="backend_gelir_listele" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/backend/master/backend.master" AutoEventWireup="true" CodeFile="listele.aspx.cs" Inherits="backend_gelir_listele" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
