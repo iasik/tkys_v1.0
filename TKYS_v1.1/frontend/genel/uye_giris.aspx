@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" EnableEventValidation="false" AutoEventWireup="true" CodeFile="uye_giris.aspx.cs" Inherits="frontend_uye_giris" MasterPageFile="~/frontend/front.master" %>
+﻿<%@ Page Language="C#" EnableEventValidation="false" AutoEventWireup="true" CodeFile="uye_giris.aspx.cs" Inherits="frontend_uye_giris" MasterPageFile="~/frontend/master/front.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

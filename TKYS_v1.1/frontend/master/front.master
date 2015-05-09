@@ -30,24 +30,24 @@ License: You must have a valid license purchased only from themeforest (the abov
     <!-- Fonts END -->
 
     <!-- Global styles START -->
-    <link href="../theme/assets/frontend/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../theme/assets/frontend/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Global styles END -->
 
     <!-- Page level plugin styles START -->
-    <link href="../theme/assets/frontend/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
-    <link href="../theme/assets/frontend/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="../theme/assets/frontend/plugins/slider-revolution-slider/rs-plugin/css/settings.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/plugins/slider-revolution-slider/rs-plugin/css/settings.css" rel="stylesheet">
     <!-- Page level plugin styles END -->
 
     <!-- Theme styles START -->
-    <link href="../theme/assets/frontend/css/components.css" rel="stylesheet">
-    <link href="../theme/assets/frontend/css/style.css" rel="stylesheet">
-    <link href="../theme/assets/frontend/css/style-revolution-slider.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/css/components.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/css/style.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/css/style-revolution-slider.css" rel="stylesheet">
     <!-- metronic revo slider styles -->
-    <link href="../theme/assets/frontend/css/style-responsive.css" rel="stylesheet">
-    <link href="../theme/assets/frontend/css/red.css" rel="stylesheet" id="style-color">
-    <link href="../theme/assets/frontend/css/custom.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/css/style-responsive.css" rel="stylesheet">
+    <link href="../../theme/assets/frontend/css/red.css" rel="stylesheet" id="style-color">
+    <link href="../../theme/assets/frontend/css/custom.css" rel="stylesheet">
     <!-- Theme styles END -->
 </head>
 <!-- Head END -->
@@ -84,7 +84,7 @@ License: You must have a valid license purchased only from themeforest (the abov
     <div class="header">
         <div class="container">
             <a class="site-logo" href="index.html">
-                <img src="../theme/assets/frontend/img/logo-corp-red.png" alt="Metronic FrontEnd"></a>
+                <img src="../../theme/assets/frontend/img/logo-corp-red.png" alt="Metronic FrontEnd"></a>
 
             <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
@@ -267,9 +267,9 @@ License: You must have a valid license purchased only from themeforest (the abov
             <div class="fullwidthabnner">
                 <ul id="revolutionul">
                     <!-- THE NEW SLIDE -->
-                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
+                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
                         <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                        <img src="../theme/assets/frontend/img/revolutionslider/bg9.jpg" alt="">
+                        <img src="../../theme/assets/frontend/img/revolutionslider/bg9.jpg" alt="">
 
                         <div class="caption lft slide_title_white slide_item_left"
                             data-x="30"
@@ -302,14 +302,14 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="700"
                             data-start="1000"
                             data-easing="easeOutExpo">
-                            <img src="../theme/assets/frontend/img/revolutionslider/lady.png" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/lady.png" alt="Image 1">
                         </div>
                     </li>
 
                     <!-- THE FIRST SLIDE -->
-                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
+                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
                         <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                        <img src="../theme/assets/frontend/img/revolutionslider/bg1.jpg" alt="">
+                        <img src="../../theme/assets/frontend/img/revolutionslider/bg1.jpg" alt="">
 
                         <div class="caption lft slide_title slide_item_left"
                             data-x="30"
@@ -352,13 +352,13 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="700"
                             data-start="1000"
                             data-easing="easeOutExpo">
-                            <img src="../theme/assets/frontend/img/revolutionslider/man-winner.png" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/man-winner.png" alt="Image 1">
                         </div>
                     </li>
 
                     <!-- THE SECOND SLIDE -->
-                    <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="9400" data-thumb="../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
-                        <img src="../theme/assets/frontend/img/revolutionslider/bg2.jpg" alt="">
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="9400" data-thumb="../../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
+                        <img src="../../theme/assets/frontend/img/revolutionslider/bg2.jpg" alt="">
                         <div class="caption lfl slide_title slide_item_left"
                             data-x="30"
                             data-y="125"
@@ -393,7 +393,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="1200"
                             data-start="1500"
                             data-easing="easeOutBack">
-                            <img src="../theme/assets/frontend/img/revolutionslider/mac.png" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/mac.png" alt="Image 1">
                         </div>
                         <div class="caption lfr slide_item_right"
                             data-x="580"
@@ -401,7 +401,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="1200"
                             data-start="2000"
                             data-easing="easeOutBack">
-                            <img src="../theme/assets/frontend/img/revolutionslider/ipad.png" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/ipad.png" alt="Image 1">
                         </div>
                         <div class="caption lfr slide_item_right"
                             data-x="735"
@@ -409,7 +409,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="1200"
                             data-start="2500"
                             data-easing="easeOutBack">
-                            <img src="../theme/assets/frontend/img/revolutionslider/iphone.png" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/iphone.png" alt="Image 1">
                         </div>
                         <div class="caption lfr slide_item_right"
                             data-x="835"
@@ -417,7 +417,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="1200"
                             data-start="3000"
                             data-easing="easeOutBack">
-                            <img src="../theme/assets/frontend/img/revolutionslider/macbook.png" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/macbook.png" alt="Image 1">
                         </div>
                         <div class="caption lft slide_item_right"
                             data-x="865"
@@ -425,7 +425,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="500"
                             data-start="5000"
                             data-easing="easeOutBack">
-                            <img src="../theme/assets/frontend/img/revolutionslider/hint1-red.png" id="rev-hint1" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/hint1-red.png" id="rev-hint1" alt="Image 1">
                         </div>
                         <div class="caption lfb slide_item_right"
                             data-x="355"
@@ -433,13 +433,13 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="500"
                             data-start="5500"
                             data-easing="easeOutBack">
-                            <img src="../theme/assets/frontend/img/revolutionslider/hint2-red.png" id="rev-hint2" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/hint2-red.png" id="rev-hint2" alt="Image 1">
                         </div>
                     </li>
 
                     <!-- THE THIRD SLIDE -->
-                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
-                        <img src="../theme/assets/frontend/img/revolutionslider/bg3.jpg" alt="">
+                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
+                        <img src="../../theme/assets/frontend/img/revolutionslider/bg3.jpg" alt="">
                         <div class="caption lfl slide_item_left"
                             data-x="30"
                             data-y="95"
@@ -486,9 +486,9 @@ License: You must have a valid license purchased only from themeforest (the abov
                     </li>
 
                     <!-- THE FORTH SLIDE -->
-                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
+                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
                         <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                        <img src="../theme/assets/frontend/img/revolutionslider/bg4.jpg" alt="">
+                        <img src="../../theme/assets/frontend/img/revolutionslider/bg4.jpg" alt="">
                         <div class="caption lft slide_title"
                             data-x="30"
                             data-y="105"
@@ -530,7 +530,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="400"
                             data-start="2000"
                             data-easing="easeOutBack">
-                            <img src="../theme/assets/frontend/img/revolutionslider/iphone_left.png" alt="Image 2">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/iphone_left.png" alt="Image 2">
                         </div>
 
                         <div class="caption lft start"
@@ -539,7 +539,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                             data-speed="400"
                             data-start="2400"
                             data-easing="easeOutBack">
-                            <img src="../theme/assets/frontend/img/revolutionslider/iphone_right.png" alt="Image 3">
+                            <img src="../../theme/assets/frontend/img/revolutionslider/iphone_right.png" alt="Image 3">
                         </div>
                     </li>
                 </ul>
@@ -569,35 +569,35 @@ License: You must have a valid license purchased only from themeforest (the abov
                         <h2>Photos Stream</h2>
                         <ul class="list-unstyled">
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/people/img5-small.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/people/img5-small.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/works/img1.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/works/img1.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/people/img4-large.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/people/img4-large.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/works/img6.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/works/img6.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/works/img3.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/works/img3.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/people/img2-large.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/people/img2-large.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/works/img2.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/works/img2.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/works/img5.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/works/img5.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/people/img5-small.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/people/img5-small.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/works/img1.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/works/img1.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/people/img4-large.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/people/img4-large.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/works/img6.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/works/img6.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/works/img3.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/works/img3.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/people/img2-large.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/people/img2-large.jpg"></a></li>
                             <li><a href="#">
-                                <img alt="" src="../theme/assets/frontend/img/works/img2.jpg"></a></li>
+                                <img alt="" src="../../theme/assets/frontend/img/works/img2.jpg"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -672,27 +672,27 @@ License: You must have a valid license purchased only from themeforest (the abov
     <!-- Load javascripts at bottom, this will reduce page load time -->
     <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
     <!--[if lt IE 9]>
-    <script src="../theme/assets/frontend/plugins/respond.min.js"></script>
+    <script src="../../theme/assets/frontend/plugins/respond.min.js"></script>
     <![endif]-->
-    <script src="../theme/assets/frontend/js/jquery.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/frontend/js/jquery-migrate.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/frontend/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/frontend/scripts/back-to-top.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/js/jquery.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/js/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/scripts/back-to-top.js" type="text/javascript"></script>
     <!-- END CORE PLUGINS -->
 
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
-    <script src="../theme/assets/frontend/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script>
     <!-- pop up -->
-    <script src="../theme/assets/frontend/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
     <!-- slider for products -->
 
     <!-- BEGIN RevolutionSlider -->
-    <script src="../theme/assets/frontend/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/frontend/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/frontend/js/revo-slider-init.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/js/revo-slider-init.js" type="text/javascript"></script>
     <!-- END RevolutionSlider -->
 
-    <script src="../theme/assets/frontend/js/layout.js" type="text/javascript"></script>
+    <script src="../../theme/assets/frontend/js/layout.js" type="text/javascript"></script>
     <script type="text/javascript">
         jQuery(document).ready(function () {
             Layout.init();
