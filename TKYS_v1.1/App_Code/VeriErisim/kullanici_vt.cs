@@ -211,6 +211,7 @@ public class kullanici_vt : Veritabani
           if (kayitlar.Count() > 0)
           {
               var kayit = kayitlar.FirstOrDefault();
+
                   kayit.kullanici_adi = kullanici.kullanici_adi;
                   kayit.sifre = kullanici.sifre;
                   kayit.ad = kullanici.ad;
@@ -219,10 +220,12 @@ public class kullanici_vt : Veritabani
                   kayit.cep_telefonu = kullanici.cep_telefonu;
                   kayit.cinsiyet = kullanici.cinsiyet;
                   kayit.yetki = kullanici.yetki.ToString();
+
                   Entity.SaveChanges();
+
                   return new islem_sonucu<kullanici_bilgisi> { 
-                  basarili_mi=true,
-                  veri=kullanici
+                      basarili_mi=true,
+                      veri=kullanici
                   };
           }
 
