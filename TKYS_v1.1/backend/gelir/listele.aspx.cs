@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Entity;
 
 public partial class backend_gelir_listele : System.Web.UI.Page
 {
@@ -15,8 +15,8 @@ public partial class backend_gelir_listele : System.Web.UI.Page
 
     public void listele()
     {
-        gelir_vt veri = new gelir_vt();
-        var sonuc = veri.Listele();
+        gelir_vt gelirvt = new gelir_vt();
+        var sonuc = gelirvt.Listele();
         if(sonuc.basarili_mi)
         {
             rpt_gelir.DataSource = sonuc.veri;
@@ -24,10 +24,12 @@ public partial class backend_gelir_listele : System.Web.UI.Page
         }
         else
         {
-            gelir bos = new gelir();
-            bos.ad = "boş";
-            bos.miktar = 0;
-            bos.id = 0;
+            gelir veri = new gelir();
+            veri.ad = "boş";
+            veri.miktar = 0;
+            veri.id = 0;
+            rpt_gelir.DataSource = veri;
+            rpt_gelir.DataBind();
         }
     }
 }
