@@ -32,17 +32,17 @@ License: You must have a valid license purchased only from themeforest(the above
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
-    <link href="../theme/assets/backend/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="../theme/assets/backend/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
-    <link href="../theme/assets/backend/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="../theme/assets/backend/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+    <link href="../../theme/assets/backend/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../theme/assets/backend/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+    <link href="../../theme/assets/backend/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../../theme/assets/backend/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN THEME STYLES -->
-    <link href="../theme/assets/backend/css/components-rounded.css" id="style_components" rel="stylesheet" type="text/css">
-    <link href="../theme/assets/backend/css/plugins.css" rel="stylesheet" type="text/css">
-    <link href="../theme/assets/backend/css/layout.css" rel="stylesheet" type="text/css">
-    <link href="../theme/assets/backend/css/default.css" rel="stylesheet" type="text/css" id="style_color">
-    <link href="../theme/assets/backend/css/custom.css" rel="stylesheet" type="text/css">
+    <link href="../../theme/assets/backend/css/components-rounded.css" id="style_components" rel="stylesheet" type="text/css">
+    <link href="../../theme/assets/backend/css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="../../theme/assets/backend/css/layout.css" rel="stylesheet" type="text/css">
+    <link href="../../theme/assets/backend/css/default.css" rel="stylesheet" type="text/css" id="style_color">
+    <link href="../../theme/assets/backend/css/custom.css" rel="stylesheet" type="text/css">
     <!-- END THEME STYLES -->
     <link rel="shortcut icon" href="favicon.ico" />
 </head>
@@ -59,7 +59,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!-- BEGIN LOGO -->
                 <div class="page-logo">
                     <a href="index.html">
-                        <img src="../theme/assets/backend/img/logo-default.png" alt="logo" class="logo-default"></a>
+                        <img src="../../theme/assets/backend/img/logo-default.png" alt="logo" class="logo-default"></a>
                 </div>
                 <!-- END LOGO -->
                 <!-- BEGIN RESPONSIVE MENU TOGGLER -->
@@ -144,7 +144,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <li>
                                             <a href="inbox.html?a=view">
                                                 <span class="photo">
-                                                    <img src="../theme/assets/backend/img/avatar3.jpg" class="img-circle" alt="">
+                                                    <img src="../../theme/assets/backend/img/avatar3.jpg" class="img-circle" alt="">
                                                 </span>
                                                 <span class="subject">
                                                     <span class="from">Richard Doe </span>
@@ -161,7 +161,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         <!-- BEGIN USER LOGIN DROPDOWN -->
                         <li class="dropdown dropdown-user dropdown-dark">
                             <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                <img alt="" class="img-circle" src="../theme/assets/backend/img/avatar9.jpg">
+                                <img alt="" class="img-circle" src="../../theme/assets/backend/img/avatar9.jpg">
                                 <span class="username username-hide-mobile">
                                     <asp:Label ID="kullanici_adi" runat="server" Text="Label"></asp:Label></span>
                             </a>
@@ -368,23 +368,23 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
     <!-- BEGIN CORE PLUGINS -->
     <!--[if lt IE 9]>
-<script src="../theme/assets/backend/plugins/respond.min.js"></script>
-<script src="../theme/assets/backend/plugins/excanvas.min.js"></script> 
+<script src="../../theme/assets/backend/plugins/respond.min.js"></script>
+<script src="../../theme/assets/backend/plugins/excanvas.min.js"></script> 
 <![endif]-->
-    <script src="../theme/assets/backend/js/jquery.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/backend/js/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/js/jquery.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/js/jquery-migrate.min.js" type="text/javascript"></script>
     <!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
-    <script src="../theme/assets/backend/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/backend/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/backend/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/backend/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/backend/js/jquery.blockui.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/backend/js/jquery.cokie.min.js" type="text/javascript"></script>
-    <script src="../theme/assets/backend/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/js/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/js/jquery.cokie.min.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
     <!-- END CORE PLUGINS -->
-    <script src="../theme/assets/backend/js/metronic.js" type="text/javascript"></script>
-    <script src="../theme/assets/backend/js/layout.js" type="text/javascript"></script>
-    <script src="../theme/assets/backend/js/demo.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/js/metronic.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/js/layout.js" type="text/javascript"></script>
+    <script src="../../theme/assets/backend/js/demo.js" type="text/javascript"></script>
     <script>
         jQuery(document).ready(function () {
             Metronic.init(); // init metronic core components
