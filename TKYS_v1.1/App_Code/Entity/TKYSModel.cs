@@ -99,14 +99,17 @@ namespace Entity
     using System;
     using System.Collections.Generic;
     
-    public partial class @is
+    public partial class is_turu
     {
+        public is_turu()
+        {
+            this.isler = new HashSet<isler>();
+        }
+    
         public int id { get; set; }
         public string ad { get; set; }
-        public string detay { get; set; }
-        public Nullable<int> is_turu { get; set; }
     
-        public virtual is_turu is_turu1 { get; set; }
+        public virtual ICollection<isler> isler { get; set; }
     }
 }
 namespace Entity
@@ -114,17 +117,14 @@ namespace Entity
     using System;
     using System.Collections.Generic;
     
-    public partial class is_turu
+    public partial class isler
     {
-        public is_turu()
-        {
-            this.@is = new HashSet<@is>();
-        }
-    
         public int id { get; set; }
         public string ad { get; set; }
+        public string detay { get; set; }
+        public Nullable<int> is_turu { get; set; }
     
-        public virtual ICollection<@is> @is { get; set; }
+        public virtual is_turu is_turu1 { get; set; }
     }
 }
 namespace Entity

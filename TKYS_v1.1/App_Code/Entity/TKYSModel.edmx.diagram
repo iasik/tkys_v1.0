@@ -11,7 +11,6 @@
         <EntityTypeShape EntityType="TKYSModel.etkinlik" Width="1.5" PointX="3" PointY="12.875" IsExpanded="true" />
         <EntityTypeShape EntityType="TKYSModel.gelir" Width="1.5" PointX="5.75" PointY="5" IsExpanded="true" />
         <EntityTypeShape EntityType="TKYSModel.gider" Width="1.5" PointX="7.75" PointY="5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TKYSModel.is" Width="1.5" PointX="8" PointY="2.125" IsExpanded="true" />
         <EntityTypeShape EntityType="TKYSModel.is_turu" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
         <EntityTypeShape EntityType="TKYSModel.kullanici" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
         <EntityTypeShape EntityType="TKYSModel.rezervasyon" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
@@ -20,9 +19,10 @@
         <AssociationConnector Association="TKYSModel.FK_borc_kullanici" ManuallyRouted="false" />
         <AssociationConnector Association="TKYSModel.FK_daire_kullanici" ManuallyRouted="false" />
         <AssociationConnector Association="TKYSModel.FK_etkinlik_kullanici" ManuallyRouted="false" />
-        <AssociationConnector Association="TKYSModel.FK_is_is_turu" ManuallyRouted="false" />
         <AssociationConnector Association="TKYSModel.FK_rezervasyon_kullanici" ManuallyRouted="false" />
         <AssociationConnector Association="TKYSModel.FK_rezervasyon_sosyal_tesis" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TKYSModel.isler" Width="1.5" PointX="8.5" PointY="2.125" />
+        <AssociationConnector Association="TKYSModel.FK_is_is_turu1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

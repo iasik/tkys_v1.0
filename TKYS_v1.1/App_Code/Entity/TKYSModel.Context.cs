@@ -31,10 +31,10 @@ namespace Entity
         public virtual DbSet<etkinlik> etkinlik { get; set; }
         public virtual DbSet<gelir> gelir { get; set; }
         public virtual DbSet<gider> gider { get; set; }
-        public virtual DbSet<@is> @is { get; set; }
         public virtual DbSet<is_turu> is_turu { get; set; }
         public virtual DbSet<kullanici> kullanici { get; set; }
         public virtual DbSet<rezervasyon> rezervasyon { get; set; }
         public virtual DbSet<sosyal_tesis> sosyal_tesis { get; set; }
+        public virtual DbSet<isler> isler { get; set; }
     }
 }
