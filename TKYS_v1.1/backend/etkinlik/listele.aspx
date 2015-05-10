@@ -57,7 +57,7 @@
                                 </td>
                                 <td><%#Item.tarih %>
                                 </td>
-                                <td><%#Item.kullanici_id %>
+                                <td><%#Item.kullanici.ad %>
                                 </td>
                                 <td style="float: right;">
                                     <div class="btn-group btn-group-circle btn-group-solid btn-group-xs">
