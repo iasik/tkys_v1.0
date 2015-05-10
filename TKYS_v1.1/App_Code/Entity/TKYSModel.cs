@@ -123,8 +123,10 @@ namespace Entity
         public string ad { get; set; }
         public string detay { get; set; }
         public Nullable<int> is_turu { get; set; }
+        public Nullable<int> kullanici_id { get; set; }
     
         public virtual is_turu is_turu1 { get; set; }
+        public virtual kullanici kullanici { get; set; }
     }
 }
 namespace Entity
@@ -141,6 +143,7 @@ namespace Entity
             this.daire = new HashSet<daire>();
             this.etkinlik = new HashSet<etkinlik>();
             this.rezervasyon = new HashSet<rezervasyon>();
+            this.isler = new HashSet<isler>();
         }
     
         public int id { get; set; }
@@ -158,6 +161,7 @@ namespace Entity
         public virtual ICollection<daire> daire { get; set; }
         public virtual ICollection<etkinlik> etkinlik { get; set; }
         public virtual ICollection<rezervasyon> rezervasyon { get; set; }
+        public virtual ICollection<isler> isler { get; set; }
     }
 }
 namespace Entity

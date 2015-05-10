@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Entity;
-/// <summary>
-/// Summary description for kullanici_vt
-/// </summary>
+//Unutma! Kullanıcı girişinden alınan session'dan kullanıcı yetkiyi çekeceğiz ve dropdownlistde yetkileri ona göre listeleyeceğiz.
 public class kullanici_vt : Veritabani
 {
     public islem_sonucu<kullanici_bilgisi> Giris(string kullanici_adi, string sifre) // siteye giriş yapılan fonksiyon
     {
         try
         {//kullanıcının textbox'a girdiği kullanıcı adı ve şifreyi veritabanında karşılaştırıyoruz.
+
             var kayitlar = (from k in Entity.kullanici
                             where k.kullanici_adi == kullanici_adi && k.sifre == sifre
                             select k);

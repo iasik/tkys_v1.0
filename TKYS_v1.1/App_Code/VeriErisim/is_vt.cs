@@ -12,6 +12,7 @@ public class is_vt : Veritabani
         try
         {
             // İş Türü tablosundan iş türünü alıyoruz. Eğer olmayan bir iş türü gelme durumunu kontrol edelim.
+            //Sadece personel işi yapar yönetici işi yapamaz
             Entity.isler.Add(yeni);
             Entity.SaveChanges();
             return new islem_sonucu<bool>
@@ -84,6 +85,7 @@ public class is_vt : Veritabani
             kayit.ad = veri.ad;
             kayit.detay = veri.detay;
             kayit.is_turu = veri.is_turu;// iş türünü alt tablodan aldık ne olacak??
+            kayit.kullanici_id = veri.kullanici_id;
 
             Entity.SaveChanges();
 

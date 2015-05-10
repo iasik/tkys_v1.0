@@ -75,6 +75,7 @@
           <Property Name="ad" Type="nvarchar" MaxLength="50" />
           <Property Name="detay" Type="text" />
           <Property Name="is_turu" Type="int" />
+          <Property Name="kullanici_id" Type="int" />
         </EntityType>
         <EntityType Name="kullanici">
           <Key>
@@ -109,7 +110,9 @@
           <Property Name="kapasite" Type="int" />
         </EntityType>
         <Association Name="FK_bildirim_kullanici">
-          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1" />
+          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="bildirim" Type="Self.bildirim" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="kullanici">
@@ -121,7 +124,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_borc_kullanici">
-          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1" />
+          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="borc" Type="Self.borc" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="kullanici">
@@ -133,7 +138,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_daire_kullanici">
-          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1" />
+          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="daire" Type="Self.daire" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="kullanici">
@@ -145,7 +152,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_etkinlik_kullanici">
-          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1" />
+          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="etkinlik" Type="Self.etkinlik" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="kullanici">
@@ -157,7 +166,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_is_is_turu">
-          <End Role="is_turu" Type="Self.is_turu" Multiplicity="0..1" />
+          <End Role="is_turu" Type="Self.is_turu" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="isler" Type="Self.isler" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="is_turu">
@@ -168,8 +179,24 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_isler_kullanici">
+          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="isler" Type="Self.isler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kullanici">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="isler">
+              <PropertyRef Name="kullanici_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_rezervasyon_kullanici">
-          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1" />
+          <End Role="kullanici" Type="Self.kullanici" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="rezervasyon" Type="Self.rezervasyon" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="kullanici">
@@ -181,7 +208,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_rezervasyon_sosyal_tesis">
-          <End Role="sosyal_tesis" Type="Self.sosyal_tesis" Multiplicity="0..1" />
+          <End Role="sosyal_tesis" Type="Self.sosyal_tesis" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="rezervasyon" Type="Self.rezervasyon" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="sosyal_tesis">
@@ -222,6 +251,10 @@
           </AssociationSet>
           <AssociationSet Name="FK_is_is_turu" Association="Self.FK_is_is_turu">
             <End Role="is_turu" EntitySet="is_turu" />
+            <End Role="isler" EntitySet="isler" />
+          </AssociationSet>
+          <AssociationSet Name="FK_isler_kullanici" Association="Self.FK_isler_kullanici">
+            <End Role="kullanici" EntitySet="kullanici" />
             <End Role="isler" EntitySet="isler" />
           </AssociationSet>
           <AssociationSet Name="FK_rezervasyon_kullanici" Association="Self.FK_rezervasyon_kullanici">
@@ -322,6 +355,7 @@
           <NavigationProperty Name="daire" Relationship="Self.FK_daire_kullanici" FromRole="kullanici" ToRole="daire" />
           <NavigationProperty Name="etkinlik" Relationship="Self.FK_etkinlik_kullanici" FromRole="kullanici" ToRole="etkinlik" />
           <NavigationProperty Name="rezervasyon" Relationship="Self.FK_rezervasyon_kullanici" FromRole="kullanici" ToRole="rezervasyon" />
+          <NavigationProperty Name="isler" Relationship="TKYSModel.FK_isler_kullanici" FromRole="kullanici" ToRole="isler" />
         </EntityType>
         <EntityType Name="rezervasyon">
           <Key>
@@ -456,6 +490,10 @@
             <End Role="is_turu" EntitySet="is_turu" />
             <End Role="isler" EntitySet="isler" />
           </AssociationSet>
+          <AssociationSet Name="FK_isler_kullanici" Association="TKYSModel.FK_isler_kullanici">
+            <End Role="kullanici" EntitySet="kullanici" />
+            <End Role="isler" EntitySet="isler" />
+          </AssociationSet>
         </EntityContainer>
         <EntityType Name="isler">
           <Key>
@@ -466,6 +504,8 @@
           <Property Name="detay" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="is_turu" Type="Int32" />
           <NavigationProperty Name="is_turu1" Relationship="TKYSModel.FK_is_is_turu1" FromRole="isler" ToRole="is_turu" />
+          <Property Name="kullanici_id" Type="Int32" />
+          <NavigationProperty Name="kullanici" Relationship="TKYSModel.FK_isler_kullanici" FromRole="isler" ToRole="kullanici" />
         </EntityType>
         <Association Name="FK_is_is_turu1">
           <End Type="TKYSModel.is_turu" Role="is_turu" Multiplicity="0..1" />
@@ -476,6 +516,20 @@
             </Principal>
             <Dependent Role="isler">
               <PropertyRef Name="is_turu" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_isler_kullanici">
+          <End Type="TKYSModel.kullanici" Role="kullanici" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="TKYSModel.isler" Role="isler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="kullanici">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="isler">
+              <PropertyRef Name="kullanici_id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -592,6 +646,7 @@
           <EntitySetMapping Name="isler">
             <EntityTypeMapping TypeName="TKYSModel.isler">
               <MappingFragment StoreEntitySet="isler">
+                <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
                 <ScalarProperty Name="is_turu" ColumnName="is_turu" />
                 <ScalarProperty Name="detay" ColumnName="detay" />
                 <ScalarProperty Name="ad" ColumnName="ad" />
