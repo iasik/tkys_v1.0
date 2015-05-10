@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/backend/master/backend.master" AutoEventWireup="true" CodeFile="listele.aspx.cs" Inherits="backend_bildirim_listele" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/backend/master/backend.master" AutoEventWireup="true" CodeFile="listele.aspx.cs" Inherits="backend_rezervasyon_listele" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
         <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/select2/select2.css"/>
@@ -32,6 +32,8 @@
                         </th>
                         <th>Detay
                         </th>
+                        <th>Sosyal Tesis
+                        </th>
                         <th>Kullanıcı ID
                         </th>
                         <th>İşlemler
@@ -39,7 +41,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <asp:Repeater ID="rpt_bildirim" runat="server" ItemType="Entity.bildirim">
+                    <asp:Repeater ID="rpt_rezervasyon" runat="server" ItemType="Entity.rezervasyon">
                         <ItemTemplate>
                             <tr>
 
@@ -53,6 +55,8 @@
                                 </td>
                                 <td><%#Item.detay %>
                                 </td>
+                                <td><%#Item.sosyal_tesis.ad%>
+                                </td>
                                 <td><%#Item.kullanici.kullanici_adi %>
                                 </td>
                                 <td style="float: right;">
@@ -61,7 +65,7 @@
                                             <i class="fa fa-user"></i>
                                             Bak
                                         </a>
-                                        <a class="btn green-seagreen" href="guncelle.aspx?id=<%#Item.id %>&user=<%#Item.kullanici_id %>" title="Update">
+                                        <a class="btn green-seagreen" href="guncelle.aspx?id=<%#Item.id %>&user=<%#Item.kullanici_id %>&tesis=<%#Item.sosyal_tesis_id %>" title="Update">
                                             <i class="fa fa-cogs"></i>
                                             Güncelle
                                         </a>
@@ -89,6 +93,4 @@
        });
    </script> 
 </asp:Content>
-
-
 
