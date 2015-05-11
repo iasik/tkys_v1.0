@@ -6,6 +6,7 @@
     <form id="form" runat="server">
         <asp:TextBox ID="txt_ad" runat="server"></asp:TextBox>
         <asp:Button ID="btn_guncelle" runat="server" Text="Button" OnClick="btn_guncelle_Click" />
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txt_ad" ErrorMessage="Ad bölümü doldurulmalıdır.">Ad bölümü doldurulmalıdır.</asp:RequiredFieldValidator>
     </form>
 </asp:Content>
 

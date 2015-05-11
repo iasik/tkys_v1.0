@@ -23,6 +23,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label class="control-label col-md-2">Blok:</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="txt_blok" ErrorMessage="Blok bölümü boş bırakılamaz.">Blok bölümü boş bırakılamaz.</asp:RequiredFieldValidator>
                                 <div class="col-md-8">
                                     <asp:TextBox ID="txt_blok" runat="server" CssClass="form-control"></asp:TextBox>
                                 </div>
@@ -33,6 +34,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label class="control-label col-md-2">Kat:</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ControlToValidate="txt_kat" ErrorMessage="Kat bölümü boş bırakılamaz.">Kat bölümü boş bırakılamaz.</asp:RequiredFieldValidator>
                                 <div class="col-md-8">
                                     <asp:TextBox ID="txt_kat" runat="server" CssClass="form-control"></asp:TextBox>
                                 </div>
@@ -43,6 +45,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label class="control-label col-md-2">Daire No:</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ControlToValidate="txt_daire_no" ErrorMessage="Daire No bölümü boş bırakılamaz.">Daire No bölümü boş bırakılamaz.</asp:RequiredFieldValidator>
                                 <div class="col-md-8">
                                     <asp:TextBox ID="txt_daire_no" runat="server" CssClass="form-control"></asp:TextBox>
                                 </div>
@@ -53,6 +56,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label class="control-label col-md-2">Daire Genişliği(m2):</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ControlToValidate="txt_daire_genisligi" ErrorMessage="Daire genişliği boş bırakılamaz.">Daire genişliği boş bırakılamaz.</asp:RequiredFieldValidator>
                                 <div class="col-md-8">
                                     <asp:TextBox ID="txt_daire_genisligi" runat="server" CssClass="form-control"></asp:TextBox>
                                 </div>
@@ -63,6 +67,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label class="control-label col-md-2">Kullanıcı:</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="DropDownList1" ErrorMessage="Kullanıcı kısmı seçilmelidir.">Kullanıcı kısmı seçilmelidir.</asp:RequiredFieldValidator>
                                 <div class="col-md-8">
                                     <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-control">
                                     </asp:DropDownList>
