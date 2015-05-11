@@ -23,11 +23,11 @@ public partial class backend_kullanici_guncelle : System.Web.UI.Page
 
             if (sorgu)
             {
-                RadioButton1.Checked = true ;
+                cinsiyet.SelectedValue = "1" ;
             }
             else 
             {
-                RadioButton2.Checked=true;
+                cinsiyet.SelectedValue = "0";
             }
             //hata var burda..
             if (Request.QueryString["yetki"]=="1")
@@ -54,14 +54,14 @@ public partial class backend_kullanici_guncelle : System.Web.UI.Page
         yeni.id = Convert.ToInt32(Request.QueryString["id"]);
         yeni.ad = txt_ad.Text;
         yeni.soyad =txt_soyad.Text;
-        if (RadioButton1.Checked)
+       /* if (cinsiyet.Checked)
         {
             yeni.cinsiyet = false;
         }
         else
         {
             yeni.cinsiyet = true;
-        }
+        }*/
         yeni.e_posta = txt_e_posta.Text;
         yeni.cep_telefonu = txt_cep_telefonu.Text;
         yeni.kullanici_adi = txt_kullanici_adi.Text;

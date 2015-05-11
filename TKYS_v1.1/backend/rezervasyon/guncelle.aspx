@@ -3,7 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="main" Runat="Server">
-    <form id="form" runat="server">
         <div class="portlet light">
         <div class="portlet-title">
             <div class="caption">
