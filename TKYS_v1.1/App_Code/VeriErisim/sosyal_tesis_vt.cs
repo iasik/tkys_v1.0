@@ -3,24 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Entity;
-
-/// <summary>
-/// Summary description for gelir_vt
-/// </summary>
-public class gelir_vt : Veritabani
+// sosyal tesis
+public class sosyal_tesis_vt : Veritabani
 {
-	public islem_sonucu<bool> Ekle(gelir yeni)
+    public islem_sonucu<bool> Ekle(sosyal_tesis yeni)
     {
         try
         {
-            Entity.gelir.Add(yeni);
+            Entity.sosyal_tesis.Add(yeni);
             Entity.SaveChanges();
             return new islem_sonucu<bool>
             {
                 basarili_mi = true,
             };
         }
-        catch(Exception hata)
+        catch (Exception hata)
         {
             return new islem_sonucu<bool>
             {
@@ -29,24 +26,24 @@ public class gelir_vt : Veritabani
                 {
                     hata_mesaji = hata.Message,
                     metod = "Ekle",
-                    sinif = "gelir veritabanı"
+                    sinif = "Sosyal Tesis Tablosu"
                 },
                 mesaj = "Bir hata ile karşılaşıldı"
             };
         }
     }
 
-    public islem_sonucu<gelir> Bul(int id)
+    public islem_sonucu<sosyal_tesis> Bul(int id)
     {
         try
         {
-            var kayitlar = (from g in Entity.gelir
-                            where g.id == id
-                            select g);
+            var kayitlar = (from s in Entity.sosyal_tesis
+                            where s.id == id
+                            select s);
             if (kayitlar.Count() > 0)
             {
                 var kayit = kayitlar.FirstOrDefault();
-                return new islem_sonucu<gelir>
+                return new islem_sonucu<sosyal_tesis>
                 {
                     basarili_mi = true,
                     veri = kayit,
@@ -54,7 +51,7 @@ public class gelir_vt : Veritabani
             }
             else
             {
-                return new islem_sonucu<gelir>
+                return new islem_sonucu<sosyal_tesis>
                 {
                     basarili_mi = false,
                     mesaj = "kayıt bulunamadı",
@@ -63,28 +60,29 @@ public class gelir_vt : Veritabani
         }
         catch (Exception hata)
         {
-            return new islem_sonucu<gelir>
-             {
-                 basarili_mi = false,
-                 hata_bilgi = new hata
-                 {
-                     hata_mesaji = hata.Message,
-                     metod = "bul",
-                     sinif = "gelir veritabanı"
-                 },
-                 mesaj = "Bir hata ile karşılaşıldı"
-             };
+            return new islem_sonucu<sosyal_tesis>
+            {
+                basarili_mi = false,
+                hata_bilgi = new hata
+                {
+                    hata_mesaji = hata.Message,
+                    metod = "bul",
+                    sinif = "Sosyal Tesis Tablosu"
+                },
+                mesaj = "Bir hata ile karşılaşıldı"
+            };
         }
     }
-    public islem_sonucu<bool> Guncelle(gelir veri)
+    public islem_sonucu<bool> Guncelle(sosyal_tesis veri)
     {
         try
         {
-            var kayit = (from g in Entity.gelir
-                        where g.id == veri.id
-                        select g).FirstOrDefault();
+            var kayit = (from s in Entity.sosyal_tesis
+                         where s.id == veri.id
+                         select s).FirstOrDefault();
+
             kayit.ad = veri.ad;
-            kayit.miktar = veri.miktar;
+            kayit.kapasite = veri.kapasite;
 
             Entity.SaveChanges();
 
@@ -93,14 +91,15 @@ public class gelir_vt : Veritabani
                 basarili_mi = true,
             };
         }
-        catch(Exception hata)
+        catch (Exception hata)
         {
-            return new islem_sonucu<bool>{
+            return new islem_sonucu<bool>
+            {
                 basarili_mi = false,
                 hata_bilgi = new hata
                 {
                     metod = "Guncelle",
-                    sinif = "gelir veritabani",
+                    sinif = "Sosyal Tesis Tablosu",
                     hata_mesaji = hata.Message,
                 },
             };
@@ -111,14 +110,14 @@ public class gelir_vt : Veritabani
     {
         try
         {
-            var kayitlar = (from g in Entity.gelir
-                            where g.id == id
-                            select g);
-            if(kayitlar.Count()>0)
+            var kayitlar = (from s in Entity.sosyal_tesis
+                            where s.id == id
+                            select s);
+            if (kayitlar.Count() > 0)
             {
                 var kayit = kayitlar.FirstOrDefault();
 
-                Entity.gelir.Remove(kayit);
+                Entity.sosyal_tesis.Remove(kayit);
                 Entity.SaveChanges();
                 return new islem_sonucu<bool>
                 {
@@ -142,21 +141,21 @@ public class gelir_vt : Veritabani
                 hata_bilgi = new hata
                 {
                     metod = "Sil",
-                    sinif = "gelir veritabani",
+                    sinif = "Sosyal Tesis Tablosu",
                     hata_mesaji = hata.Message,
                 },
             };
         }
     }
 
-    public islem_sonucu<List<gelir>> Listele()
+    public islem_sonucu<List<sosyal_tesis>> Listele()
     {
         try
         {
-            var kayitlar = (from g in Entity.gelir
-                            select g).ToList();
+            var kayitlar = (from s in Entity.sosyal_tesis
+                            select s).ToList();
 
-            return new islem_sonucu<List<gelir>>
+            return new islem_sonucu<List<sosyal_tesis>>
             {
                 basarili_mi = true,
                 veri = kayitlar,
@@ -164,28 +163,17 @@ public class gelir_vt : Veritabani
         }
         catch (Exception hata)
         {
-            return new islem_sonucu<List<gelir>>
+            return new islem_sonucu<List<sosyal_tesis>>
             {
                 basarili_mi = false,
                 hata_bilgi = new hata
                 {
                     metod = "Listele",
-                    sinif = "gelir veritabani",
+                    sinif = "Sosyal Tesis Tablosu",
                     hata_mesaji = hata.Message,
                 },
             };
         }
-        
+
     }
-    public void test()
-    {
-        var kayit = (from g in Entity.gelir
-                     where g.id == 1
-                     select g).FirstOrDefault();
-
-        kayit.ad = "mert";
-        kayit.miktar = 15555;
-
-        Entity.SaveChanges();
-    }// neden bu duruyor ?
 }

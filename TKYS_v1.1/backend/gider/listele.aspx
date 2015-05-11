@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/backend/master/backend.master" AutoEventWireup="true" CodeFile="listele.aspx.cs" Inherits="backend_gelir_listele" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/backend/master/backend.master" AutoEventWireup="true" CodeFile="listele.aspx.cs" Inherits="backend_gider_listele" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/select2/select2.css"/>
@@ -37,7 +37,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <asp:Repeater ID="rpt_gelir" runat="server" ItemType="Entity.gelir">
+                    <asp:Repeater ID="rpt_gider" runat="server" ItemType="Entity.gider">
                         <ItemTemplate>
                             <tr>
 

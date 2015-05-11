@@ -1,11 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/backend/master/backend.master" AutoEventWireup="true" CodeFile="listele.aspx.cs" Inherits="backend_gelir_listele" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/backend/master/backend.master" AutoEventWireup="true" CodeFile="listele.aspx.cs" Inherits="backend_is_turu_listele" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-    <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/select2/select2.css"/>
-    <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css"/>    <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/select2/select2.css"/>
+        <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css"/>        <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="main" Runat="Server">
-    <div class="portlet light">
+        <div class="portlet light">
         <div class="portlet-title">
             <div class="caption">
                 <i class="fa fa-cogs font-green-sharp"></i>
@@ -29,15 +29,13 @@
                         <th>id
                         </th>
                         <th>Ad
-                        </th>
-                        <th>Miktar
-                        </th>
+                        </th>    
                         <th style="float: right;">İşlemler
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    <asp:Repeater ID="rpt_gelir" runat="server" ItemType="Entity.gelir">
+                    <asp:Repeater ID="rpt_isturu" runat="server" ItemType="Entity.is_turu">
                         <ItemTemplate>
                             <tr>
 
@@ -49,8 +47,7 @@
                                 </td>
                                 <td><%#Item.ad %>
                                 </td>
-                                <td><%#Item.miktar %>
-                                </td>
+
                                 <td style="float: right;">
                                     <div class="btn-group btn-group-circle btn-group-solid btn-group-xs">
                                         <a class="btn blue-madison" href="goruntule.aspx?id=<%#Item.id %>" title="View">
@@ -61,7 +58,7 @@
                                             <i class="fa fa-cogs"></i>
                                             Güncelle
                                         </a>
-                                        <a class="btn grey-cascade" href="sil.aspx?id=<%#Item.id %>" title="Delete" data-confirm="Are you sure to delete this item?">
+                                        <a class="btn grey-cascade" href="sil.aspx?id=<%#Item.id %>" title="Delete" data-confirm="Silinsin mi?">
                                             <i class="fa fa-bullhorn"></i>
                                             Sil
                                         </a>
@@ -83,8 +80,6 @@
        jQuery(document).ready(function () {
            TableAdvanced.init();
        });
-   </script> 
+   </script> 
 </asp:Content>
-
-
 
