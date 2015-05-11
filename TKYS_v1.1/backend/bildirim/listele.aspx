@@ -22,7 +22,6 @@
             <table class="table table-striped table-hover" id="sample_5">
                 <thead>
                     <tr>
-
                         <th class="table-checkbox">
                             <input type="checkbox" class="group-checkable" data-set="#sample_5 .checkboxes" />
                         </th>
