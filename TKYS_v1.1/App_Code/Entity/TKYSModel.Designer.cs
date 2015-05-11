@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Taylan\Source\Repos\tkys_v1.02\TKYS_v1.1\App_Code\Entity\TKYSModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\İbrahim Aşık\Source\Repos\tkys_v1.0\TKYS_v1.1\App_Code\Entity\TKYSModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

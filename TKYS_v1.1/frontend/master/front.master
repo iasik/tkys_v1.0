@@ -70,9 +70,27 @@ License: You must have a valid license purchased only from themeforest (the abov
                 <!-- BEGIN TOP BAR MENU -->
                 <div class="col-md-6 col-sm-6 additional-nav">
                     <ul class="list-unstyled list-inline pull-right">
-
-                        <li><a href="uye_giris.aspx">Üye Girişi</a></li>
-                        <li><a href="page-reg-page.html">Registration</a></li>
+                        <asp:Panel ID="Panel1" runat="server">
+                            <li>
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~frontend/genel/uye_giris.aspx">Üye Girişi</asp:HyperLink>
+                            </li>
+                        </asp:Panel>
+                        <asp:Panel ID="Panel2" runat="server">
+                            <li>
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~backend/">Yönetim Paneli</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~backend/genel/cikis.aspx">Çıkış</asp:HyperLink>
+                            </li>
+                        </asp:Panel>
+                        <asp:Panel ID="Panel3" runat="server">
+                            <li>
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~frontend/kullanici/profil.aspx">Profil</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~frontend/genel/cikis.aspx">Çıkış</asp:HyperLink>
+                            </li>
+                        </asp:Panel>
                     </ul>
                 </div>
                 <!-- END TOP BAR MENU -->
