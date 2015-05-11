@@ -23,6 +23,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label class="control-label col-md-2">Ad:</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txt_ad" ErrorMessage="Ad bölümü doldurulmalıdır.">Ad bölümü doldurulmalıdır.</asp:RequiredFieldValidator>
                                 <div class="col-md-8">
                                     <asp:TextBox ID="txt_ad" runat="server" CssClass="form-control"></asp:TextBox>
                                 </div>
@@ -33,8 +34,9 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label class="control-label col-md-2">Miktar:</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="txt_miktar" ErrorMessage="Miktar bölümü doldurulmalıdır.">Bu bölüm doldurulmalıdır.</asp:RequiredFieldValidator>
                                 <div class="col-md-8">
-                                    <asp:TextBox ID="txt_miktar" runat="server" CssClass="form-control"></asp:TextBox>
+                                    <asp:TextBox ID="txt_miktar" runat="server" CssClass="form-control" TextMode="Number"></asp:TextBox>
                                 </div>
                             </div>
                         </div>

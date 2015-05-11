@@ -23,6 +23,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label class="control-label col-md-2">Ad:</label>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txt_ad" ErrorMessage="Ad bölümü doldurulmalıdır.">Ad bölümü doldurulmalıdır.</asp:RequiredFieldValidator>
                                 <div class="col-md-8">
                                     <asp:TextBox ID="txt_ad" runat="server" class="form-control"></asp:TextBox>
                                 </div>
@@ -42,8 +43,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label class="control-label col-md-2">Kullanıcı ID:</label>
-                                <div class="col-md-8">
+                                <label class="control-label col-md-2">Kullanıcı ID:</label><asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="DropDownList1" ErrorMessage="Kullanıcı ID kısmı seçilmelidir.">Kullanıcı ID kısmı seçilmelidir.</asp:RequiredFieldValidator>
+&nbsp;<div class="col-md-8">
                                     <asp:DropDownList ID="DropDownList1" runat="server" class="form-control">
                                     </asp:DropDownList>
                                 </div>
