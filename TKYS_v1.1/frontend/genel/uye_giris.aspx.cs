@@ -20,11 +20,11 @@ public partial class frontend_uye_giris : System.Web.UI.Page
         {
             lbMesaj.Text = "Kullanıcı Girişi yapıldı.";
             Session[SiteTanim.KullaniciSession] = sonuc.veri;
-
-            if(sonuc.veri.yetki==UyeTip.site_sakini)
+            Response.Redirect("Default.aspx");
+            /*if(sonuc.veri.yetki==UyeTip.site_sakini)
                 Response.Redirect("Default.aspx");
             else
-                Response.Redirect("../backend/Default.aspx");
+                Response.Redirect("../backend/Default.aspx");*/
         }
         else
         {
