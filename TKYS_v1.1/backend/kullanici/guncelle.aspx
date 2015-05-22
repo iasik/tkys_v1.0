@@ -121,7 +121,7 @@
                             <div class="col-md-6">
                                 <div class="row">
                                     <div class="col-md-offset-4 col-md-9">
-                                        <asp:Button class="btn red" ID="btn_guncelle" runat="server" Text="Button" OnClick="btn_guncelle_Click" />
+                                        <asp:Button class="btn red" ID="btn_guncelle" runat="server" Text="Güncelle" OnClick="btn_guncelle_Click" />
                                     </div>
                                 </div>
                             </div>
