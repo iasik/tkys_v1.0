@@ -1,17 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="front.master.cs" Inherits="frontend_front" %>
 
 <!DOCTYPE html>
-<!-- 
-Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.2.0
-Version: 3.4
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-License: You must have a valid license purchased only from themeforest (the above link) in order to legally use the theme for your project.
--->
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
@@ -24,7 +13,7 @@ License: You must have a valid license purchased only from themeforest (the abov
 
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
     <link rel="shortcut icon" href="favicon.ico">
-
+    <title></title>
     <!-- Fonts START -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
     <!-- Fonts END -->
@@ -70,9 +59,29 @@ License: You must have a valid license purchased only from themeforest (the abov
                 <!-- BEGIN TOP BAR MENU -->
                 <div class="col-md-6 col-sm-6 additional-nav">
                     <ul class="list-unstyled list-inline pull-right">
-
-                        <li><a href="uye_giris.aspx">Üye Girişi</a></li>
-                        <li><a href="page-reg-page.html">Registration</a></li>
+                        <asp:Panel ID="Panel1" runat="server">
+                            <li>
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/frontend/genel/uye_giris.aspx">Üye Girişi</asp:HyperLink>
+                            </li>
+                        </asp:Panel>
+                        <asp:Panel ID="Panel2" runat="server">
+                            <li>
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/backend/">Yönetim Paneli</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/backend/genel/cikis.aspx">Çıkış</asp:HyperLink>
+                            </li>
+                        </asp:Panel>
+                        <asp:Panel ID="Panel3" runat="server">
+                            <li>
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/frontend/kullanici/profil.aspx">
+                                    Profil
+                                </asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/frontend/genel/cikis.aspx">Çıkış</asp:HyperLink>
+                            </li>
+                        </asp:Panel>
                     </ul>
                 </div>
                 <!-- END TOP BAR MENU -->
@@ -83,160 +92,16 @@ License: You must have a valid license purchased only from themeforest (the abov
     <!-- BEGIN HEADER -->
     <div class="header">
         <div class="container">
-            <a class="site-logo" href="index.html">
-                <img src="../../theme/assets/frontend/img/logo-corp-red.png" alt="Metronic FrontEnd"></a>
-
+                <asp:HyperLink CssClass="site-logo" ID="HyperLink10" runat="server" NavigateUrl="~/frontend/genel"><img src="../../theme/assets/frontend/img/logo-corp-red.png" alt="Metronic FrontEnd"></asp:HyperLink>
             <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
             <!-- BEGIN NAVIGATION -->
             <div class="header-navigation pull-right font-transform-inherit">
                 <ul>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Home 
-                
-              </a>
-
-                        <ul class="dropdown-menu">
-                            <li class="active"><a href="index.html">Home Default</a></li>
-                            <li><a href="index-header-fix.html">Home with Header Fixed</a></li>
-                            <li><a href="index-without-topbar.html">Home without Top Bar</a></li>
-                        </ul>
-                    </li>
-
-
-
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Pages 
-                
-              </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a href="page-about.html">About Us</a></li>
-                            <li><a href="page-services.html">Services</a></li>
-                            <li><a href="page-prices.html">Prices</a></li>
-                            <li><a href="page-faq.html">FAQ</a></li>
-                            <li><a href="page-gallery.html">Gallery</a></li>
-                            <li><a href="page-search-result.html">Search Result</a></li>
-                            <li><a href="page-404.html">404</a></li>
-                            <li><a href="page-500.html">500</a></li>
-                            <li><a href="page-login.html">Login Page</a></li>
-                            <li><a href="page-forgotton-password.html">Forget Password</a></li>
-                            <li><a href="page-reg-page.html">Signup Page</a></li>
-                            <li><a href="page-careers.html">Careers</a></li>
-                            <li><a href="page-site-map.html">Site Map</a></li>
-                            <li><a href="page-contacts.html">Contact</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Features 
-                
-              </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a href="feature-typography.html">Typography</a></li>
-                            <li><a href="feature-buttons.html">Buttons</a></li>
-                            <li><a href="feature-forms.html">Forms</a></li>
-
-                            <li class="dropdown-submenu">
-                                <a href="index.html">Multi level <i class="fa fa-angle-right"></i></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="index.html">Second Level Link</a></li>
-                                    <li><a href="index.html">Second Level Link</a></li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Second Level Link 
-                       
-                                            <i class="fa fa-angle-right"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="index.html">Third Level Link</a></li>
-                                            <li><a href="index.html">Third Level Link</a></li>
-                                            <li><a href="index.html">Third Level Link</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Portfolio 
-                
-              </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a href="portfolio-4.html">Portfolio 4</a></li>
-                            <li><a href="portfolio-3.html">Portfolio 3</a></li>
-                            <li><a href="portfolio-2.html">Portfolio 2</a></li>
-                            <li><a href="portfolio-item.html">Portfolio Item</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Blog 
-                
-              </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a href="blog.html">Blog Page</a></li>
-                            <li><a href="blog-item.html">Blog Item</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown dropdown-megamenu">
-                        <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Mega Menu
-                
-              </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="header-navigation-content">
-                                    <div class="row">
-                                        <div class="col-md-4 header-navigation-col">
-                                            <h4>Footwear</h4>
-                                            <ul>
-                                                <li><a href="index.html">Astro Trainers</a></li>
-                                                <li><a href="index.html">Basketball Shoes</a></li>
-                                                <li><a href="index.html">Boots</a></li>
-                                                <li><a href="index.html">Canvas Shoes</a></li>
-                                                <li><a href="index.html">Football Boots</a></li>
-                                                <li><a href="index.html">Golf Shoes</a></li>
-                                                <li><a href="index.html">Hi Tops</a></li>
-                                                <li><a href="index.html">Indoor Trainers</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-4 header-navigation-col">
-                                            <h4>Clothing</h4>
-                                            <ul>
-                                                <li><a href="index.html">Base Layer</a></li>
-                                                <li><a href="index.html">Character</a></li>
-                                                <li><a href="index.html">Chinos</a></li>
-                                                <li><a href="index.html">Combats</a></li>
-                                                <li><a href="index.html">Cricket Clothing</a></li>
-                                                <li><a href="index.html">Fleeces</a></li>
-                                                <li><a href="index.html">Gilets</a></li>
-                                                <li><a href="index.html">Golf Tops</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-4 header-navigation-col">
-                                            <h4>Accessories</h4>
-                                            <ul>
-                                                <li><a href="index.html">Belts</a></li>
-                                                <li><a href="index.html">Caps</a></li>
-                                                <li><a href="index.html">Gloves</a></li>
-                                            </ul>
-
-                                            <h4>Clearance</h4>
-                                            <ul>
-                                                <li><a href="index.html">Jackets</a></li>
-                                                <li><a href="index.html">Bottoms</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li><a href="shop-index.html" target="_blank">E-Commerce</a></li>
-                    <li><a href="onepage-index.html" target="_blank">One Page</a></li>
-                    <li><a href="http://keenthemes.com/preview/metronic/theme/templates/admin" target="_blank">Admin theme</a></li>
+                    <li><asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/frontend/genel">Anasayfa</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/frontend/genel/hakkimizda.aspx">Hakkımızda</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/frontend/genel/ozellikler.aspx">Özellikler</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/frontend/genel/iletisim.aspx">İletişim</asp:HyperLink></li>
 
                     <!-- BEGIN TOP SEARCH -->
                     <li class="menu-search">

@@ -9,7 +9,7 @@ public partial class backend_backend : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        //YetkiKontrol();
+        YetkiKontrol();
     }
 
     public void YetkiKontrol()
@@ -21,9 +21,9 @@ public partial class backend_backend : System.Web.UI.MasterPage
                 kullanici_adi.Text = ((kullanici_bilgisi)Session[SiteTanim.KullaniciSession]).kullanici_adi;
             }
             else
-                Response.Redirect("../default.aspx");
+                Response.Redirect("~/frontend");
         }
         else
-            Response.Redirect("../default.aspx");
+            Response.Redirect("~/frontend");
     }
 }

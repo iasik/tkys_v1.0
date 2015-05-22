@@ -9,6 +9,7 @@ public partial class backend_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        Response.Redirect("genel");
+        Response.Redirect("genel/default.aspx");
+
     }
 }

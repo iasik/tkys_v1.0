@@ -222,8 +222,129 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="hor-menu ">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="Default.aspx">Dashboard</a>
+                            <asp:HyperLink ID="HyperLink19" runat="server" NavigateUrl="~/backend">Anasayfa</asp:HyperLink>
                         </li>
+                        <li class="menu-dropdown classic-menu-dropdown ">
+						    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+						         Kullanici 
+                                <i class="fa fa-angle-down"></i>
+						    </a>
+						    <ul class="dropdown-menu pull-left">                                <li class="dropdown">
+                                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/backend/kullanici/ekle.aspx">
+                                            <i class="icon-list"></i>
+                                            Ekle
+                                        </asp:HyperLink>                                </li>                                <li class="dropdown">
+                                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/backend/kullanici/listele.aspx">
+                                            <i class="icon-list"></i>
+                                            Listele
+                                        </asp:HyperLink>                                </li>                            </ul>                        </li>                        <li class="menu-dropdown classic-menu-dropdown ">
+						    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+						         Daire 
+                                <i class="fa fa-angle-down"></i>
+						    </a>
+						    <ul class="dropdown-menu pull-left">                                <li class="dropdown">
+                                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/backend/daire/ekle.aspx">
+                                            <i class="icon-list"></i>
+                                            Ekle
+                                        </asp:HyperLink>                                </li>                                <li class="dropdown">
+                                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/backend/daire/listele.aspx">
+                                            <i class="icon-list"></i>
+                                            Listele
+                                        </asp:HyperLink>                                </li>                            </ul>                        </li>                        <li class="menu-dropdown classic-menu-dropdown ">
+						    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+						         Gelir 
+                                <i class="fa fa-angle-down"></i>
+						    </a>
+						    <ul class="dropdown-menu pull-left">                                <li class="dropdown">
+                                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/backend/gelir/ekle.aspx">
+                                            <i class="icon-list"></i>
+                                            Ekle
+                                        </asp:HyperLink>                                </li>                                <li class="dropdown">
+                                        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/backend/gelir/listele.aspx">
+                                            <i class="icon-list"></i>
+                                            Listele
+                                        </asp:HyperLink>                                </li>                            </ul>                        </li>                        <li class="menu-dropdown classic-menu-dropdown ">
+						    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+						         Gider 
+                                <i class="fa fa-angle-down"></i>
+						    </a>
+						    <ul class="dropdown-menu pull-left">                                <li class="dropdown">
+                                    <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/backend/gider/ekle.aspx">
+                                            <i class="icon-list"></i>
+                                            Ekle
+                                        </asp:HyperLink>                                </li>                                <li class="dropdown">
+                                        <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/backend/gider/listele.aspx">
+                                            <i class="icon-list"></i>
+                                            Listele
+                                        </asp:HyperLink>                                </li>                            </ul>                        </li>                        <li class="menu-dropdown classic-menu-dropdown ">
+						    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+						         İşler 
+                                <i class="fa fa-angle-down"></i>
+						    </a>
+						    <ul class="dropdown-menu pull-left">                                <li class="dropdown">
+                                    <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/backend/isler/ekle.aspx">
+                                            <i class="icon-list"></i>
+                                            Ekle
+                                        </asp:HyperLink>                                </li>                                <li class="dropdown">
+                                        <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/backend/isler/listele.aspx">
+                                            <i class="icon-list"></i>
+                                            Listele
+                                        </asp:HyperLink>                                </li>                                <li class="dropdown-submenu">
+                                    <a href=":;">
+                                        <i class="icon-briefcase"></i>
+                                        İş Türü</a>
+                                    <ul class="dropdown-menu">
+                                        <li class=" ">
+                                            <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/backend/is_turu/ekle.aspx">
+                                                          Ekle  
+                                            </asp:HyperLink>
+                                        </li>
+                                        <li class=" ">
+                                            <asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="~/backend/is_turu/listele.aspx">
+                                                            Listele
+                                            </asp:HyperLink>
+                                        </li>
+                                    </ul>
+                                </li>                            </ul>                        </li>                        <li class="menu-dropdown classic-menu-dropdown ">
+						    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+						         Bildirim 
+                                <i class="fa fa-angle-down"></i>
+						    </a>
+						    <ul class="dropdown-menu pull-left">                                <li class="dropdown">
+                                    <asp:HyperLink ID="HyperLink17" runat="server" NavigateUrl="~/backend/bildirim/ekle.aspx">
+                                            <i class="icon-list"></i>
+                                            Ekle
+                                        </asp:HyperLink>                                </li>                                <li class="dropdown">
+                                        <asp:HyperLink ID="HyperLink18" runat="server" NavigateUrl="~/backend/bildirim/listele.aspx">
+                                            <i class="icon-list"></i>
+                                            Listele
+                                        </asp:HyperLink>                                </li>                            </ul>                        </li>                        <li class="menu-dropdown classic-menu-dropdown ">
+						    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+						         Etkinlik 
+                                <i class="fa fa-angle-down"></i>
+						    </a>
+						    <ul class="dropdown-menu pull-left">                                <li class="dropdown">
+                                    <asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/backend/etkinlik/ekle.aspx">
+                                            <i class="icon-list"></i>
+                                            Ekle
+                                        </asp:HyperLink>                                </li>                                <li class="dropdown">
+                                        <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/backend/etkinlik/listele.aspx">
+                                            <i class="icon-list"></i>
+                                            Listele
+                                        </asp:HyperLink>                                </li>                            </ul>                        </li>                        <li class="menu-dropdown classic-menu-dropdown ">
+						    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;">
+						         Sosyal Tesis 
+                                <i class="fa fa-angle-down"></i>
+						    </a>
+						    <ul class="dropdown-menu pull-left">                                <li class="dropdown">
+                                    <asp:HyperLink ID="HyperLink15" runat="server" NavigateUrl="~/backend/sosyal_tesis/ekle.aspx">
+                                            <i class="icon-list"></i>
+                                            Ekle
+                                        </asp:HyperLink>                                </li>                                <li class="dropdown">
+                                        <asp:HyperLink ID="HyperLink16" runat="server" NavigateUrl="~/backend/sosyal_tesis/listele.aspx">
+                                            <i class="icon-list"></i>
+                                            Listele
+                                        </asp:HyperLink>                                </li>                            </ul>                        </li>
                     </ul>
                 </div>
                 <!-- END MEGA MENU -->
