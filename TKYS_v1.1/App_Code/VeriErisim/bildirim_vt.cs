@@ -175,4 +175,35 @@ public class bildirim_vt : Veritabani
         }
 
     }
+
+
+    public islem_sonucu<List<bildirim>> Kullanici_Bildirim(int id)
+    {
+        try
+        {
+            var kayitlar = (from b in Entity.bildirim
+                            where b.kullanici_id == id  
+                            select b).ToList();
+
+            return new islem_sonucu<List<bildirim>>
+            {
+                basarili_mi = true,
+                veri = kayitlar,
+            };
+        }
+        catch (Exception hata)
+        {
+            return new islem_sonucu<List<bildirim>>
+            {
+                basarili_mi = false,
+                hata_bilgi = new hata
+                {
+                    metod = "Listele",
+                    sinif = "Bildirim Tablosu",
+                    hata_mesaji = hata.Message,
+                },
+            };
+        }
+
+    }
 }

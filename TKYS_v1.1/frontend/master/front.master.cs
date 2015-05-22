@@ -19,6 +19,7 @@ public partial class frontend_front : System.Web.UI.MasterPage
         if(Session[SiteTanim.KullaniciSession]!=null)
         {
             YetkiKontrol();
+            BildirimSay();
         }
     }
 
@@ -34,5 +35,17 @@ public partial class frontend_front : System.Web.UI.MasterPage
             Panel1.Visible = false;
             Panel3.Visible = true;
         }
+
+    }
+
+    public void BildirimSay()
+    {
+
+        bildirim_vt bildirim = new bildirim_vt();
+
+        var kayitlar = bildirim.Kullanici_Bildirim(((kullanici_bilgisi)Session[SiteTanim.KullaniciSession]).id);
+
+        lbl_bildirimSayisi.Text = kayitlar.veri.Count().ToString();
+    
     }
 }

@@ -79,6 +79,9 @@
                 <asp:Panel ID="Panel3" runat="server" CssClass="col-md-6 col-sm-6 additional-nav">
                     <ul class="list-unstyled list-inline pull-right">
                         <li>
+                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/frontend/bildirim/bildirim.aspx">Bildirim(<asp:Label ID="lbl_bildirimSayisi" runat="server" Text=""></asp:Label>)</asp:HyperLink>
+                        </li>
+                        <li>
                             <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/frontend/kullanici/profil.aspx">
                                     Profil
                             </asp:HyperLink>
