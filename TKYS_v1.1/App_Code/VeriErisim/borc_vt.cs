@@ -176,4 +176,34 @@ public class borc_vt : Veritabani
         }
 
     }
+
+    public islem_sonucu<List<borc>> kullanici_borc(int kullanici_id)
+    {
+        try
+        {
+            var kayitlar = (from b in Entity.borc
+                            where b.kullanici_id == kullanici_id
+                            select b).ToList();
+
+            return new islem_sonucu<List<borc>>
+            {
+                basarili_mi = true,
+                veri = kayitlar,
+            };
+        }
+        catch (Exception hata)
+        {
+            return new islem_sonucu<List<borc>>
+            {
+                basarili_mi = false,
+                hata_bilgi = new hata
+                {
+                    metod = "Listele",
+                    sinif = "Borç Tablosu",
+                    hata_mesaji = hata.Message,
+                },
+            };
+        }
+
+    }
 }
