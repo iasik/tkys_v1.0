@@ -20,6 +20,7 @@ public partial class frontend_front : System.Web.UI.MasterPage
         {
             YetkiKontrol();
             BildirimSay();
+            BorcSay();
         }
     }
 
@@ -47,5 +48,15 @@ public partial class frontend_front : System.Web.UI.MasterPage
 
         lbl_bildirimSayisi.Text = kayitlar.veri.Count().ToString();
     
+    }
+    public void BorcSay()
+    {
+
+        borc_vt borc = new borc_vt();
+
+        var kayitlar = borc.kullanici_borc(((kullanici_bilgisi)Session[SiteTanim.KullaniciSession]).id);
+
+        lbl_borc.Text = kayitlar.veri.Count().ToString();
+
     }
 }
