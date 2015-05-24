@@ -360,7 +360,7 @@ var TableAdvanced = function () {
                     "sortAscending": ": activate to sort column ascending",
                     "sortDescending": ": activate to sort column descending"
                 },
-                "emptyTable": "No data available in table",
+                "emptyTable": "Hic Veri Bulunamadi",
                 "info": "_START_ den _END_ ya kadar _TOTAL_  kayit gosteriliyor",
                 "infoEmpty": "No entries found",
                 "infoFiltered": "(filtered1 from _MAX_ total entries)",

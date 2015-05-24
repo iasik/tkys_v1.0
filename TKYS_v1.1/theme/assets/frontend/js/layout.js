@@ -431,6 +431,23 @@ var Layout = function () {
                     [1600, 3]
                 ],
             });
+            $(".owl-carousel7").owlCarousel({
+                pagination: false,
+                navigation: true,
+                items: 3,
+                addClassActive: true,
+                itemsCustom: [
+                    [0, 1],
+                    [320, 1],
+                    [480, 2],
+                    [700, 3],
+                    [768, 2],
+                    [1024, 4],
+                    [1200, 4],
+                    [1400, 4],
+                    [1600, 4]
+                ],
+            });
 
             $(".owl-carousel2").owlCarousel({
                 pagination: false,

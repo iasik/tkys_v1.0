@@ -10,23 +10,23 @@
         <div class="col-md-4 col-sm-4">
             <div class="service-box-heading">
                 <em><i class="fa fa-location-arrow blue"></i></em>
-                <span>Multipurpose Template</span>
+                <span>Site Yönetim Programı</span>
             </div>
-            <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
+            <p>Son derece anlaşılır ve kullanıcı dostu bir site yönetim programı mı arıyordunuz? Siyonet'i tercih edin.</p>
         </div>
         <div class="col-md-4 col-sm-4">
             <div class="service-box-heading">
                 <em><i class="fa fa-check red"></i></em>
-                <span>Well Documented</span>
+                <span>Kullanım Kolaylığı</span>
             </div>
-            <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
+            <p>Siyonet, rezidans ve site yönetim programını üstün bilgiler sahibi olmanıza gerek kalmadan kolaylıkla kullanabilir ve yönetim işlerinizi yapabilirsiniz.</p>
         </div>
         <div class="col-md-4 col-sm-4">
             <div class="service-box-heading">
                 <em><i class="fa fa-compress green"></i></em>
-                <span>Responsive Design</span>
+                <span>Erişilebilirlik</span>
             </div>
-            <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
+            <p>Web tabanlı Siyonet site yönetim programına bilgisayar ve internet'in olduğu her yerden ulaşabilirsiniz ve herhangi bir dosya indirmeden yükleme yapmadan kullanabilirsiniz.</p>
         </div>
     </div>
     <!-- END SERVICE BOX -->
@@ -34,10 +34,10 @@
     <!-- BEGIN BLOCKQUOTE BLOCK -->
     <div class="row quote-v1 margin-bottom-30">
         <div class="col-md-9">
-            <span>Metronic - The Most Complete &amp; Popular Admin &amp; Frontend Theme</span>
+            <span>Sistem Hakkinda daha detayla bilgi ve fiyatlandırma için</span>
         </div>
         <div class="col-md-3 text-right">
-            <a class="btn-transparent" href="http://www.keenthemes.com/preview/index.php?theme=metronic_admin" target="_blank"><i class="fa fa-rocket margin-right-10"></i>Preview Admin</a>
+            <a class="btn-transparent" href="mailto:info@flysoft.com"><i class="fa fa-rocket margin-right-10"></i>Bize Ulaşın</a>
         </div>
     </div>
     <!-- END BLOCKQUOTE BLOCK -->
@@ -45,97 +45,66 @@
     <!-- BEGIN RECENT WORKS -->
     <div class="row recent-work margin-bottom-40">
         <div class="col-md-3">
-            <h2><a href="portfolio.html">Recent Works</a></h2>
-            <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde voluptatem. Sed unde omnis iste natus error sit voluptatem.</p>
+            <h2><a href="portfolio.html">Referanslarımız</a></h2>
+            <p>Türkiye'nin en iyi toplu konut yönetim sistemi olan Flysoft'un referanslarından bazıları...</p>
         </div>
         <div class="col-md-9">
             <div class="owl-carousel owl-carousel3">
                 <div class="recent-work-item">
                     <em>
-                        <img src="../../theme/assets/frontend/img/works/img1.jpg" alt="Amazing Project" class="img-responsive">
+                        <img src="../../theme/assets/frontend/img/bati-logo.jpg" alt="Amazing Project" class="img-responsive">
                         <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                        <a href="../../theme/assets/frontend/img/works/img1.jpg" class="fancybox-button" title="Project Name #1" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/bati-1.jpg" class="fancybox-button" title="Batı Şehir" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/bati-2.jpg" class="fancybox-button" title="Batı Şehir" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/bati-3.jpg" class="fancybox-button" title="Batı Şehir" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                     </em>
                     <a class="recent-work-description" href="#">
-                        <strong>Amazing Project</strong>
-                        <b>Agenda corp.</b>
+                        <strong>Batı Şehir</strong>
                     </a>
                 </div>
                 <div class="recent-work-item">
                     <em>
-                        <img src="../../theme/assets/frontend/img/works/img2.jpg" alt="Amazing Project" class="img-responsive">
+                        <img src="../../theme/assets/frontend/img/crystal-logo.jpg" alt="Amazing Project" class="img-responsive">
                         <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                        <a href="../../theme/assets/frontend/img/works/img2.jpg" class="fancybox-button" title="Project Name #2" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/crystal-1.jpg" class="fancybox-button" title="Crystal Park" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/crystal-2.jpg" class="fancybox-button" title="Crystal Park" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/crystal-3.jpg" class="fancybox-button" title="Crystal Park" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                     </em>
                     <a class="recent-work-description" href="#">
-                        <strong>Amazing Project</strong>
-                        <b>Agenda corp.</b>
+                        <strong>Crystal Park</strong>
                     </a>
                 </div>
                 <div class="recent-work-item">
                     <em>
-                        <img src="../../theme/assets/frontend/img/works/img3.jpg" alt="Amazing Project" class="img-responsive">
+                        <img src="../../theme/assets/frontend/img/16-9-logo.jpg" alt="Amazing Project" class="img-responsive">
                         <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                        <a href="../../theme/assets/frontend/img/works/img3.jpg" class="fancybox-button" title="Project Name #3" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/16-9-1.jpg" class="fancybox-button" title="16-9 İstanbul" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/16-9-2.jpg" class="fancybox-button" title="16-9 İstanbul" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                     </em>
                     <a class="recent-work-description" href="#">
-                        <strong>Amazing Project</strong>
-                        <b>Agenda corp.</b>
+                        <strong>16-9 İstanbul</strong>
                     </a>
                 </div>
                 <div class="recent-work-item">
                     <em>
-                        <img src="../../theme/assets/frontend/img/works/img4.jpg" alt="Amazing Project" class="img-responsive">
+                        <img src="../../theme/assets/frontend/img/vadi-logo.gif" alt="Amazing Project" class="img-responsive">
                         <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                        <a href="../../theme/assets/frontend/img/works/img4.jpg" class="fancybox-button" title="Project Name #4" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/vadi-1.png" class="fancybox-button" title="Vadi İstanbul" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/vadi-2.png" class="fancybox-button" title="Vadi İstanbul" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                     </em>
                     <a class="recent-work-description" href="#">
-                        <strong>Amazing Project</strong>
-                        <b>Agenda corp.</b>
+                        <strong>Vadi İstanbul</strong>
                     </a>
                 </div>
                 <div class="recent-work-item">
                     <em>
-                        <img src="../../theme/assets/frontend/img/works/img5.jpg" alt="Amazing Project" class="img-responsive">
+                        <img src="../../theme/assets/frontend/img/terrace-logo.jpg" alt="Amazing Project" class="img-responsive">
                         <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                        <a href="../../theme/assets/frontend/img/works/img5.jpg" class="fancybox-button" title="Project Name #5" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/terrace-1.jpg" class="fancybox-button" title="Terrace Bahçe" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                        <a href="../../theme/assets/frontend/img/terrace-2.jpg" class="fancybox-button" title="Terrace Bahçe" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
                     </em>
                     <a class="recent-work-description" href="#">
-                        <strong>Amazing Project</strong>
-                        <b>Agenda corp.</b>
-                    </a>
-                </div>
-                <div class="recent-work-item">
-                    <em>
-                        <img src="../../theme/assets/frontend/img/works/img6.jpg" alt="Amazing Project" class="img-responsive">
-                        <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                        <a href="../../theme/assets/frontend/img/works/img6.jpg" class="fancybox-button" title="Project Name #6" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
-                    </em>
-                    <a class="recent-work-description" href="#">
-                        <strong>Amazing Project</strong>
-                        <b>Agenda corp.</b>
-                    </a>
-                </div>
-                <div class="recent-work-item">
-                    <em>
-                        <img src="../../theme/assets/frontend/img/works/img3.jpg" alt="Amazing Project" class="img-responsive">
-                        <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                        <a href="../../theme/assets/frontend/img/works/img3.jpg" class="fancybox-button" title="Project Name #3" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
-                    </em>
-                    <a class="recent-work-description" href="#">
-                        <strong>Amazing Project</strong>
-                        <b>Agenda corp.</b>
-                    </a>
-                </div>
-                <div class="recent-work-item">
-                    <em>
-                        <img src="../../theme/assets/frontend/img/works/img4.jpg" alt="Amazing Project" class="img-responsive">
-                        <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-                        <a href="../../theme/assets/frontend/img/works/img4.jpg" class="fancybox-button" title="Project Name #4" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
-                    </em>
-                    <a class="recent-work-description" href="#">
-                        <strong>Amazing Project</strong>
-                        <b>Agenda corp.</b>
+                        <strong>Terrace Bahçe</strong>
                     </a>
                 </div>
             </div>
@@ -148,38 +117,43 @@
         <!-- TABS -->
         <div class="col-md-7 tab-style-1">
             <ul class="nav nav-tabs">
-                <li class="active"><a href="#tab-1" data-toggle="tab">Multipurpose</a></li>
-                <li><a href="#tab-2" data-toggle="tab">Documented</a></li>
-                <li><a href="#tab-3" data-toggle="tab">Responsive</a></li>
-                <li><a href="#tab-4" data-toggle="tab">Clean & Fresh</a></li>
+                <li class="active"><a href="#tab-1" data-toggle="tab">Yönetim</a></li>
+                <li><a href="#tab-2" data-toggle="tab">Finans</a></li>
+                <li><a href="#tab-3" data-toggle="tab">Raporlama</a></li>
+                <li><a href="#tab-4" data-toggle="tab">Kullanıcı</a></li>
             </ul>
             <div class="tab-content">
                 <div class="tab-pane row fade in active" id="tab-1">
                     <div class="col-md-3 col-sm-3">
-                        <a href="assets/temp/photos/img7.jpg" class="fancybox-button" title="Image Title" data-rel="fancybox-button">
-                            <img class="img-responsive" src="../../theme/assets/frontend/img/photos/img7.jpg" alt="">
-                        </a>
+                            <img class="img-responsive" src="../../theme/assets/frontend/img/yonetim.jpg" alt="">
                     </div>
                     <div class="col-md-9 col-sm-9">
-                        <p class="margin-bottom-10">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Cosby sweater eu banh mi, qui irure terry richardson ex squid Aliquip placeat salvia cillum iphone.</p>
-                        <p><a class="more" href="#">Read more <i class="icon-angle-right"></i></a></p>
+                        <p class="margin-bottom-10">Sitenizle ilgili tanımlamaları yapıcagınız,bildirimleri ve etkinlikleri oluşturup takip edebilceginiz modül.</p>
                     </div>
                 </div>
                 <div class="tab-pane row fade" id="tab-2">
                     <div class="col-md-9 col-sm-9">
-                        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia..</p>
+                        <p>Sitenizle ilgili gelir gider takibinin yapılacagı ayrıca aidatların site sakinlerine dağıtıp düzenlemeleri yapıcağınız modül</p>
                     </div>
                     <div class="col-md-3 col-sm-3">
-                        <a href="assets/temp/photos/img10.jpg" class="fancybox-button" title="Image Title" data-rel="fancybox-button">
-                            <img class="img-responsive" src="../../theme/assets/frontend/img/photos/img10.jpg" alt="">
-                        </a>
+                            <img class="img-responsive" src="../../theme/assets/frontend/img/finans.jpg" alt="">
                     </div>
                 </div>
                 <div class="tab-pane fade" id="tab-3">
-                    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                    <div class="col-md-3 col-sm-3">
+                            <img class="img-responsive" src="../../theme/assets/frontend/img/raporlama.jpg" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <p>Sitenizle ilgili gelir raporları , gider raporları site sakinleriyle ilgili raporlama işlemlerinin yapıldığı modül</p>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="tab-4">
-                    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+                    <div class="col-md-9">
+                        <p>Sistem kullanıcılarıyla ilgili yönetim işlemlerinin yapıldığı sistem üzerine site sakini veya personel ekleme işlemlerini ypaıldığı modül</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                            <img class="img-responsive" src="../../theme/assets/frontend/img/kullanici.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -241,83 +215,22 @@
     <div class="row margin-bottom-40 front-steps-wrapper front-steps-count-3">
         <div class="col-md-4 col-sm-4 front-step-col">
             <div class="front-step front-step1">
-                <h2>Goal definition</h2>
-                <p>Lorem ipsum dolor sit amet sit consectetur adipisicing eiusmod tempor.</p>
+                <h2>Kaydını Oluşturalım</h2>
+                <p>Size bir mail kadar uzaklıkta kayıt işlemi</p>
             </div>
         </div>
         <div class="col-md-4 col-sm-4 front-step-col">
             <div class="front-step front-step2">
-                <h2>Analyse</h2>
-                <p>Lorem ipsum dolor sit amet sit consectetur adipisicing eiusmod tempor.</p>
+                <h2>Tanımlamalarını Yap</h2>
+                <p>Hızlı tanımlamalar ile Sitenin Yönetime hazırlan</p>
             </div>
         </div>
         <div class="col-md-4 col-sm-4 front-step-col">
             <div class="front-step front-step3">
-                <h2>Implementation</h2>
-                <p>Lorem ipsum dolor sit amet sit consectetur adipisicing eiusmod tempor.</p>
+                <h2>Yönetimin Keyfini Varın</h2>
+                <p>Kolay yönetimi ile Flysoftun keyfini çıkar.</p>
             </div>
         </div>
     </div>
     <!-- END STEPS -->
-
-    <!-- BEGIN CLIENTS -->
-    <div class="row margin-bottom-40 our-clients">
-        <div class="col-md-3">
-            <h2><a href="#">Our Clients</a></h2>
-            <p>Lorem dipsum folor margade sitede lametep eiusmod psumquis dolore.</p>
-        </div>
-        <div class="col-md-9">
-            <div class="owl-carousel owl-carousel6-brands">
-                <div class="client-item">
-                    <a href="#">
-                        <img src="../../theme/assets/frontend/img/clients/client_1_gray.png" class="img-responsive" alt="">
-                        <img src="../../theme/assets/frontend/img/clients/client_1.png" class="color-img img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="client-item">
-                    <a href="#">
-                        <img src="../../theme/assets/frontend/img/clients/client_2_gray.png" class="img-responsive" alt="">
-                        <img src="../../theme/assets/frontend/img/clients/client_2.png" class="color-img img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="client-item">
-                    <a href="#">
-                        <img src="../../theme/assets/frontend/img/clients/client_3_gray.png" class="img-responsive" alt="">
-                        <img src="../../theme/assets/frontend/img/clients/client_3.png" class="color-img img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="client-item">
-                    <a href="#">
-                        <img src="../../theme/assets/frontend/img/clients/client_4_gray.png" class="img-responsive" alt="">
-                        <img src="../../theme/assets/frontend/img/clients/client_4.png" class="color-img img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="client-item">
-                    <a href="#">
-                        <img src="../../theme/assets/frontend/img/clients/client_5_gray.png" class="img-responsive" alt="">
-                        <img src="../../theme/assets/frontend/img/clients/client_5.png" class="color-img img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="client-item">
-                    <a href="#">
-                        <img src="../../theme/assets/frontend/img/clients/client_6_gray.png" class="img-responsive" alt="">
-                        <img src="../../theme/assets/frontend/img/clients/client_6.png" class="color-img img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="client-item">
-                    <a href="#">
-                        <img src="../../theme/assets/frontend/img/clients/client_7_gray.png" class="img-responsive" alt="">
-                        <img src="../../theme/assets/frontend/img/clients/client_7.png" class="color-img img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="client-item">
-                    <a href="#">
-                        <img src="../../theme/assets/frontend/img/clients/client_8_gray.png" class="img-responsive" alt="">
-                        <img src="../../theme/assets/frontend/img/clients/client_8.png" class="color-img img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END CLIENTS -->
 </asp:Content>
