@@ -147,9 +147,9 @@
                                     </div>
                                     <div class="recent-work-item">
                                         <div class="thumbnail">
-                                            <img alt="" src="../../theme/assets/frontend/img/people/img1-large.jpg">
+                                            <img alt="" src="../../theme/assets/frontend/img/ceren.jpg">
                                             <h3>
-                                                <strong>Lina Doe</strong>
+                                                <strong>Ceren Altınsoy</strong>
                                                 <small>Reporter</small>
                                             </h3>
                                             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...</p>
