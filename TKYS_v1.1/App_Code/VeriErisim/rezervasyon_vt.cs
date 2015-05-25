@@ -176,4 +176,34 @@ public class rezervasyon_vt : Veritabani
         }
 
     }
+
+    public islem_sonucu<List<rezervasyon>> ListeleID(int id)
+    {
+        try
+        {
+            var kayitlar = (from b in Entity.rezervasyon
+                            where b.kullanici_id==id
+                            select b).ToList();
+
+            return new islem_sonucu<List<rezervasyon>>
+            {
+                basarili_mi = true,
+                veri = kayitlar,
+            };
+        }
+        catch (Exception hata)
+        {
+            return new islem_sonucu<List<rezervasyon>>
+            {
+                basarili_mi = false,
+                hata_bilgi = new hata
+                {
+                    metod = "Listele",
+                    sinif = "Rezervasyon Tablosu(ID'ye göre)",
+                    hata_mesaji = hata.Message,
+                },
+            };
+        }
+
+    }
 }
