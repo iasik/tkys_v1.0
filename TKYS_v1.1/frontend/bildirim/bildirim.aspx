@@ -17,7 +17,6 @@
         </div>
         <div class="portlet-body">
             <asp:Repeater ID="rpt_Bildirim" runat="server" ItemType="Entity.bildirim">
-
                 <ItemTemplate>
                     <div class="alert alert-block alert-danger fade in">
                         <button type="button" class="close" data-dismiss="alert"></button>

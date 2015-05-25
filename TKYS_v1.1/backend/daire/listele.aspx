@@ -4,6 +4,9 @@
         <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/select2/select2.css"/>
         <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css"/>        <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css"/>
 </asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="page_title" Runat="Server">
+    <h1>Daire <small> Listeleme işlemi</small></h1>
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="main" Runat="Server">
         <div class="portlet light">
         <div class="portlet-title">

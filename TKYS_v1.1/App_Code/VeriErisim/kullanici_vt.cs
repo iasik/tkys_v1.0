@@ -332,4 +332,64 @@ public class kullanici_vt : Veritabani
         }
 
     }
+    public islem_sonucu<List<kullanici>> site_sakini_listele()
+    {
+        try
+        {
+            var kayitlar = (from k in Entity.kullanici
+                            where k.yetki == "3"
+                            select k).ToList();
+
+            return new islem_sonucu<List<kullanici>>
+            {
+                basarili_mi = true,
+                veri = kayitlar,
+            };
+        }
+        catch (Exception hata)
+        {
+            return new islem_sonucu<List<kullanici>>
+            {
+                basarili_mi = false,
+                hata_bilgi = new hata
+                {
+                    metod = "site sakini listele",
+                    sinif = "Kullanıcı Tablosu",
+                    hata_mesaji = hata.Message,
+                },
+            };
+        }
+
+    }
+    public islem_sonucu<List<kullanici>> son_kayitlar()
+    {
+        try
+        {
+            var kayitlar = (from k in Entity.kullanici
+                            orderby k.id descending 
+                            select k ).Take(10).ToList();
+
+            return new islem_sonucu<List<kullanici>>
+            {
+                basarili_mi = true,
+                veri = kayitlar,
+            };
+        }
+        catch (Exception hata)
+        {
+            return new islem_sonucu<List<kullanici>>
+            {
+                basarili_mi = false,
+                hata_bilgi = new hata
+                {
+                    metod = "Listele",
+                    sinif = "Kullanıcı Tablosu",
+                    hata_mesaji = hata.Message,
+                },
+            };
+        }
+
+    }
+
+
 }

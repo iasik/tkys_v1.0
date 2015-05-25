@@ -23,21 +23,21 @@
                   <p>Lorem ipsum dolor sit amet, Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat consectetuer adipiscing elit, sed diam nonummy nibh euismod tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
                   
                   <!-- BEGIN FORM-->
-                  <form action="#" role="form">
+                  <form action="#" role="form" runat="server">
                     <div class="form-group">
                       <label for="contacts-name">İsim</label>
-                      <input type="text" class="form-control" id="contacts-name">
+                        <asp:TextBox ID="txt_ad" runat="server" class="form-control"></asp:TextBox>
                     </div>
                     <div class="form-group">
                       <label for="contacts-email">Eposta</label>
-                      <input type="email" class="form-control" id="contacts-email">
+                       <asp:TextBox ID="txt_posta" runat="server" TextMode="Email" class="form-control" ></asp:TextBox>
                     </div>
                     <div class="form-group">
                       <label for="contacts-message">Mesaj</label>
-                      <textarea class="form-control" rows="5" id="contacts-message"></textarea>
+                      <asp:TextBox ID="txt_mesaj" runat="server" class="form-control"></asp:TextBox>
                     </div>
-                    <button type="submit" class="btn btn-primary"><i class="icon-ok"></i> Gönder</button>
-                    <button type="button" class="btn btn-default">İptal</button>
+                      <asp:Button ID="btn_gonder" runat="server" Text="Gönder" class="btn btn-primary" OnClick="btn_gonder_Click"/>
+                          <asp:Label ID="lbl_hata" runat="server"></asp:Label>
                   </form>
                   <!-- END FORM-->
                 </div>

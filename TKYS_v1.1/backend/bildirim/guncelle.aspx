@@ -2,6 +2,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="page_title" Runat="Server">
+    <h1>Bildirim <small> Güncelleme işlemi</small></h1>
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="main" runat="Server">
     <div class="portlet light">
         <div class="portlet-title">
