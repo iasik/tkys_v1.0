@@ -2,7 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
         <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/select2/select2.css"/>
-        <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css"/>        <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css"/>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="page_title" Runat="Server">
     <h1>Bildirim <small> Listeleme işlemi</small></h1>
@@ -84,8 +85,13 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="scripts" Runat="Server">
     <script type="text/javascript" src="../../theme/assets/backend/plugins/select2/select2.min.js"></script>
     <script type="text/javascript" src="../../theme/assets/backend/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="../../theme/assets/backend/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js"></script>    <script type="text/javascript" src="../../theme/assets/backend/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js"></script>    <script type="text/javascript" src="../../theme/assets/backend/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js"></script>
-    <script type="text/javascript" src="../../theme/assets/backend/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js"></script>    <script src="../../theme/assets/backend/js/table-advanced.js"></script>   <script>
+    <script type="text/javascript" src="../../theme/assets/backend/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js"></script>
+    <script type="text/javascript" src="../../theme/assets/backend/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js"></script>
+    <script type="text/javascript" src="../../theme/assets/backend/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="../../theme/assets/backend/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js"></script>
+    <script src="../../theme/assets/backend/js/table-advanced.js"></script>
+
+   <script>
        jQuery(document).ready(function () {
            TableAdvanced.init();
        });
