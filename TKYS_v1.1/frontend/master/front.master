@@ -12,7 +12,7 @@
     <meta charset="utf-8">
 
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
-    <link rel="shortcut icon" href="../../theme/assets/frontend/img/favicon.ico">
+    <link rel="shortcut icon" href="../../theme/assets/frontend/img/fav.png">
     <title>FlySoft Toplu Konut Yönetim Sistemleri</title>
     <!-- Fonts START -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
@@ -148,36 +148,31 @@
 
                         <div class="caption lft slide_title_white slide_item_left"
                             data-x="30"
-                            data-y="90"
+                            data-y="125"
                             data-speed="400"
                             data-start="1500"
                             data-easing="easeOutExpo">
-                            Explore the Power<br>
-                            <span class="slide_title_white_bold">of Metronic</span>
+                           İşlerinizi Flysoft rahatlığı <br>
+                            
+
+                            <span class="slide_title_white_bold"> ile kolay ve hızlı</span>
                         </div>
                         <div class="caption lft slide_subtitle_white slide_item_left"
-                            data-x="87"
-                            data-y="245"
+                            data-x="115"
+                            data-y="280"
                             data-speed="400"
                             data-start="2000"
                             data-easing="easeOutExpo">
-                            This is what you were looking for
+                            bir şekilde yapın paranız ve zamanınız size kalsın.
              
                         </div>
-                        <a class="caption lft btn dark slide_btn slide_item_left" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
-                            data-x="187"
-                            data-y="315"
-                            data-speed="400"
-                            data-start="3000"
-                            data-easing="easeOutExpo">Purchase Now!
-              </a>
                         <div class="caption lfb"
                             data-x="640"
-                            data-y="0"
+                            data-y="90"
                             data-speed="700"
                             data-start="1000"
                             data-easing="easeOutExpo">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/lady.png" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/konut.png" alt="Image 1" style="width:600px;height:336px;">
                         </div>
                     </li>
 
@@ -186,13 +181,13 @@
                         <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
                         <img src="../../theme/assets/frontend/img/revolutionslider/bg1.jpg" alt="">
 
-                        <div class="caption lft slide_title slide_item_left"
+                        <div class="caption lft slide_title slide_item_left" style="font-size:30px;"
                             data-x="30"
                             data-y="105"
                             data-speed="400"
                             data-start="1500"
                             data-easing="easeOutExpo">
-                            Need a website design? 
+                            Yönetim hiç bu kadar kolay olmamıstı!! 
              
                         </div>
                         <div class="caption lft slide_subtitle slide_item_left"
@@ -201,7 +196,7 @@
                             data-speed="400"
                             data-start="2000"
                             data-easing="easeOutExpo">
-                            This is what you were looking for
+                            Flysoft'un avantajlarından yararlanmak mı istiyorsun
              
                         </div>
                         <div class="caption lft slide_desc slide_item_left"
@@ -210,212 +205,68 @@
                             data-speed="400"
                             data-start="2500"
                             data-easing="easeOutExpo">
-                            Lorem ipsum dolor sit amet, dolore eiusmod<br>
-                            quis tempor incididunt. Sed unde omnis iste.
+                            Aramıza katılmak cok kolay<br>
+                            Sadece bir mail at biz sizi arayalım.
              
                         </div>
-                        <a class="caption lft btn green slide_btn slide_item_left" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
+                        <a class="caption lft btn green slide_btn slide_item_left" href="mailto:info@flysoft.com"
                             data-x="30"
                             data-y="290"
                             data-speed="400"
                             data-start="3000"
-                            data-easing="easeOutExpo">Purchase Now!
+                            data-easing="easeOutExpo">Mail Gönder
               </a>
                         <div class="caption lfb"
                             data-x="640"
-                            data-y="55"
+                            data-y="30"
                             data-speed="700"
                             data-start="1000"
                             data-easing="easeOutExpo">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/man-winner.png" alt="Image 1">
+                            <img src="../../theme/assets/frontend/img/konut2.png" alt="Image 1" style="width:500px;height:351px;">
                         </div>
                     </li>
 
                     <!-- THE SECOND SLIDE -->
-                    <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="9400" data-thumb="../../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
-                        <img src="../../theme/assets/frontend/img/revolutionslider/bg2.jpg" alt="">
-                        <div class="caption lfl slide_title slide_item_left"
-                            data-x="30"
-                            data-y="125"
-                            data-speed="400"
-                            data-start="3500"
-                            data-easing="easeOutExpo">
-                            Powerfull &amp; Clean
-             
-                        </div>
-                        <div class="caption lfl slide_subtitle slide_item_left"
-                            data-x="30"
-                            data-y="200"
-                            data-speed="400"
-                            data-start="4000"
-                            data-easing="easeOutExpo">
-                            Responsive Admin &amp; Website Theme
-             
-                        </div>
-                        <div class="caption lfl slide_desc slide_item_left"
-                            data-x="30"
-                            data-y="245"
-                            data-speed="400"
-                            data-start="4500"
-                            data-easing="easeOutExpo">
-                            Lorem ipsum dolor sit amet, consectetuer elit sed diam<br>
-                            nonummy amet euismod dolore.
-             
-                        </div>
-                        <div class="caption lfr slide_item_right"
-                            data-x="635"
-                            data-y="105"
-                            data-speed="1200"
-                            data-start="1500"
-                            data-easing="easeOutBack">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/mac.png" alt="Image 1">
-                        </div>
-                        <div class="caption lfr slide_item_right"
-                            data-x="580"
-                            data-y="245"
-                            data-speed="1200"
-                            data-start="2000"
-                            data-easing="easeOutBack">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/ipad.png" alt="Image 1">
-                        </div>
-                        <div class="caption lfr slide_item_right"
-                            data-x="735"
-                            data-y="290"
-                            data-speed="1200"
-                            data-start="2500"
-                            data-easing="easeOutBack">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/iphone.png" alt="Image 1">
-                        </div>
-                        <div class="caption lfr slide_item_right"
-                            data-x="835"
-                            data-y="230"
-                            data-speed="1200"
-                            data-start="3000"
-                            data-easing="easeOutBack">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/macbook.png" alt="Image 1">
-                        </div>
-                        <div class="caption lft slide_item_right"
-                            data-x="865"
-                            data-y="45"
-                            data-speed="500"
-                            data-start="5000"
-                            data-easing="easeOutBack">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/hint1-red.png" id="rev-hint1" alt="Image 1">
-                        </div>
-                        <div class="caption lfb slide_item_right"
-                            data-x="355"
-                            data-y="355"
-                            data-speed="500"
-                            data-start="5500"
-                            data-easing="easeOutBack">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/hint2-red.png" id="rev-hint2" alt="Image 1">
-                        </div>
-                    </li>
-
-                    <!-- THE THIRD SLIDE -->
-                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
-                        <img src="../../theme/assets/frontend/img/revolutionslider/bg3.jpg" alt="">
-                        <div class="caption lfl slide_item_left"
-                            data-x="30"
-                            data-y="95"
-                            data-speed="400"
-                            data-start="1500"
-                            data-easing="easeOutBack">
-                            <iframe src="http://player.vimeo.com/video/56974716?portrait=0" width="420" height="240" style="border: 0" allowfullscreen></iframe>
-                        </div>
-                        <div class="caption lfr slide_title"
-                            data-x="470"
-                            data-y="100"
-                            data-speed="400"
-                            data-start="2000"
-                            data-easing="easeOutExpo">
-                            Responsive Video Support
-             
-                        </div>
-                        <div class="caption lfr slide_subtitle"
-                            data-x="470"
-                            data-y="170"
-                            data-speed="400"
-                            data-start="2500"
-                            data-easing="easeOutExpo">
-                            Youtube, Vimeo and others.
-             
-                        </div>
-                        <div class="caption lfr slide_desc"
-                            data-x="470"
-                            data-y="220"
-                            data-speed="400"
-                            data-start="3000"
-                            data-easing="easeOutExpo">
-                            Lorem ipsum dolor sit amet, consectetuer elit sed diam<br>
-                            nonummy amet euismod dolore.
-             
-                        </div>
-                        <a class="caption lfr btn yellow slide_btn" href=""
-                            data-x="470"
-                            data-y="280"
-                            data-speed="400"
-                            data-start="3500"
-                            data-easing="easeOutExpo">Watch more Videos!
-                            </a>
-                    </li>
-
+                    
                     <!-- THE FORTH SLIDE -->
                     <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="../../theme/assets/frontend/img/revolutionslider/thumbs/thumb2.jpg">
                         <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                        <img src="../../theme/assets/frontend/img/revolutionslider/bg4.jpg" alt="">
-                        <div class="caption lft slide_title"
-                            data-x="30"
+                        <img src="../../theme/assets/frontend/img/16-9-2.jpg" alt="">
+                        <div class="caption lft slide_title" style="color:white"
+                            data-x="800"
                             data-y="105"
                             data-speed="400"
                             data-start="1500"
                             data-easing="easeOutExpo">
-                            What else included ?
+                           16-9 İstanbul
                            
                         </div>
                         <div class="caption lft slide_subtitle"
-                            data-x="30"
+                            data-x="800"
                             data-y="180"
                             data-speed="400"
                             data-start="2000"
                             data-easing="easeOutExpo">
-                            The Most Complete Admin Theme
+                            16-9 da Flysoft da 
                            
                         </div>
-                        <div class="caption lft slide_desc"
-                            data-x="30"
+                        <div class="caption lft slide_desc" style="color:white;"
+                            data-x="800"
                             data-y="225"
                             data-speed="400"
                             data-start="2500"
                             data-easing="easeOutExpo">
-                            Lorem ipsum dolor sit amet, consectetuer elit sed diam<br>
-                            nonummy amet euismod dolore.
+                            Sende Flysoft'un avantajlarından yararlanmak <br>
+                            istiyorsan Aramıza katıl!
                            
                         </div>
-                        <a class="caption lft slide_btn btn red slide_item_left" href="http://www.keenthemes.com/preview/index.php?theme=metronic_admin" target="_blank"
-                            data-x="30"
+                        <a class="caption lft slide_btn btn red slide_item_left" href="../genel/ozellikler.aspx" target="_blank"
+                            data-x="800"
                             data-y="300"
                             data-speed="400"
                             data-start="3000"
-                            data-easing="easeOutExpo">Learn More!
+                            data-easing="easeOutExpo">Daha fazlası
                             </a>
-                        <div class="caption lft start"
-                            data-x="670"
-                            data-y="55"
-                            data-speed="400"
-                            data-start="2000"
-                            data-easing="easeOutBack">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/iphone_left.png" alt="Image 2">
-                        </div>
-
-                        <div class="caption lft start"
-                            data-x="850"
-                            data-y="55"
-                            data-speed="400"
-                            data-start="2400"
-                            data-easing="easeOutBack">
-                            <img src="../../theme/assets/frontend/img/revolutionslider/iphone_right.png" alt="Image 3">
-                        </div>
                     </li>
                 </ul>
                 <div class="tp-bannertimer tp-bottom"></div>

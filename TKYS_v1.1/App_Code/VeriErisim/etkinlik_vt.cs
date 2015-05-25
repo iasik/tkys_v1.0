@@ -176,5 +176,34 @@ public class etkinlik_vt :Veritabani
         }
 
     }
+    public islem_sonucu<List<etkinlik>> son_kayitlar()
+    {
+        try
+        {
+            var kayitlar = (from e in Entity.etkinlik
+                            orderby e.id descending
+                            select e).Take(10).ToList();
+
+            return new islem_sonucu<List<etkinlik>>
+            {
+                basarili_mi = true,
+                veri = kayitlar,
+            };
+        }
+        catch (Exception hata)
+        {
+            return new islem_sonucu<List<etkinlik>>
+            {
+                basarili_mi = false,
+                hata_bilgi = new hata
+                {
+                    metod = "Listele",
+                    sinif = "Etkinlik Tablosu",
+                    hata_mesaji = hata.Message,
+                },
+            };
+        }
+
+    }
 
 }

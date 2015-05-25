@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="../../theme/assets/backend/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css"/>
 
 </asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="page_title" Runat="Server">
+    <h1>Gelir <small> listeleme işlemi</small></h1>
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="main" Runat="Server">
     <div class="portlet light">
         <div class="portlet-title">
