@@ -34,7 +34,7 @@
                     </div>
                     <div class="form-group">
                       <label for="contacts-message">Mesaj</label>
-                      <asp:TextBox ID="txt_mesaj" runat="server" class="form-control"></asp:TextBox>
+                      <asp:TextBox ID="txt_mesaj" runat="server" class="form-control" Rows="5" TextMode="MultiLine"></asp:TextBox>
                     </div>
                       <asp:Button ID="btn_gonder" runat="server" Text="Gönder" class="btn btn-primary" OnClick="btn_gonder_Click"/>
                           <asp:Label ID="lbl_hata" runat="server"></asp:Label>

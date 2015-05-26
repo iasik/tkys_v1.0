@@ -104,7 +104,6 @@ public class bildirim_vt : Veritabani
             };
         }
     }
-
     public islem_sonucu<bool> Sil(int id)
     {
         try
@@ -146,7 +145,6 @@ public class bildirim_vt : Veritabani
             };
         }
     }
-
     public islem_sonucu<List<bildirim>> Listele()
     {
         try
@@ -175,8 +173,6 @@ public class bildirim_vt : Veritabani
         }
 
     }
-
-
     public islem_sonucu<List<bildirim>> Kullanici_Bildirim(int id)
     {
         try

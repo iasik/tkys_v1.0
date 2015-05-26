@@ -106,7 +106,6 @@ public class etkinlik_vt :Veritabani
             };
         }
     }
-
     public islem_sonucu<bool> Sil(int id)
     {
         try
@@ -147,7 +146,6 @@ public class etkinlik_vt :Veritabani
             };
         }
     }
-
     public islem_sonucu<List<etkinlik>> Listele()
     {
         try

@@ -10,6 +10,13 @@ public partial class backend_kullanici_ekle : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+       var item1=yetki.Items.FindByValue("1");
+       var item2=yetki.Items.FindByValue("2");
+       if (((kullanici_bilgisi)Session[SiteTanim.KullaniciSession]).yetki == UyeTip.personel || ((kullanici_bilgisi)Session[SiteTanim.KullaniciSession]).yetki == UyeTip.site_sakini)
+        {
+            item1.Enabled = false;
+            item2.Enabled = false;
+        }
 
     }
     protected void btn_ekle_Click(object sender, EventArgs e)
